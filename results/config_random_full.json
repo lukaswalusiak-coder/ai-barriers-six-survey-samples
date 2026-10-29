@@ -1,0 +1,462 @@
+[
+  {
+    "regime": "random",
+    "fold": "1",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.162744514642225,
+    "inner_loss": 2.2150131680563354,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.2150131680563354
+      },
+      {
+        "value": 0.1,
+        "loss": 2.219871893070749
+      },
+      {
+        "value": 1,
+        "loss": 2.2312868113000976
+      },
+      {
+        "value": 10,
+        "loss": 2.240769935410298
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "1",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1098051460971776,
+    "inner_loss": 2.173723697195729,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.173723697195729
+      },
+      {
+        "value": 0.1,
+        "loss": 2.185822222414665
+      },
+      {
+        "value": 1,
+        "loss": 2.198854914104305
+      },
+      {
+        "value": 10,
+        "loss": 2.208327793211353
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "1",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0581049014562927,
+    "inner_loss": 2.1655864288505273,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.176372967725376
+      },
+      {
+        "value": 30,
+        "loss": 2.1655864288505273
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "1",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.4287634449522384,
+    "inner_loss": 2.192990838518473,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.192990838518473
+      },
+      {
+        "value": 15,
+        "loss": 2.227868800455512
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "2",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1697543534906265,
+    "inner_loss": 2.216033116062499,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.216033116062499
+      },
+      {
+        "value": 0.1,
+        "loss": 2.222251411516974
+      },
+      {
+        "value": 1,
+        "loss": 2.2351045966570946
+      },
+      {
+        "value": 10,
+        "loss": 2.247365514379146
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "2",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1347656095445449,
+    "inner_loss": 2.1822885646748755,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1822885646748755
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1966998397611808
+      },
+      {
+        "value": 1,
+        "loss": 2.2118770518204225
+      },
+      {
+        "value": 10,
+        "loss": 2.2240247627178826
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "2",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.103667532594947,
+    "inner_loss": 2.1788712340248098,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.188509994110652
+      },
+      {
+        "value": 30,
+        "loss": 2.1788712340248098
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "2",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.474656260161411,
+    "inner_loss": 2.207921091845265,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.207921091845265
+      },
+      {
+        "value": 15,
+        "loss": 2.248793981643239
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "3",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1691522652811086,
+    "inner_loss": 2.2178983945992576,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.2178983945992576
+      },
+      {
+        "value": 0.1,
+        "loss": 2.222519583659078
+      },
+      {
+        "value": 1,
+        "loss": 2.2328348060951906
+      },
+      {
+        "value": 10,
+        "loss": 2.2435677822262394
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "3",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1299790404644734,
+    "inner_loss": 2.1819223946861843,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1819223946861843
+      },
+      {
+        "value": 0.1,
+        "loss": 2.195334421472774
+      },
+      {
+        "value": 1,
+        "loss": 2.208270054104168
+      },
+      {
+        "value": 10,
+        "loss": 2.2195076573508867
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "3",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0809691764141878,
+    "inner_loss": 2.172579466633686,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.187036612772906
+      },
+      {
+        "value": 30,
+        "loss": 2.172579466633686
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "3",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.5116247169224328,
+    "inner_loss": 2.212874599677987,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.212874599677987
+      },
+      {
+        "value": 15,
+        "loss": 2.2521871513327234
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "4",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1272803837416565,
+    "inner_loss": 2.2096638038239296,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.2096638038239296
+      },
+      {
+        "value": 0.1,
+        "loss": 2.210351832976008
+      },
+      {
+        "value": 1,
+        "loss": 2.220066209094176
+      },
+      {
+        "value": 10,
+        "loss": 2.2299402233412433
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "4",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1041965744237088,
+    "inner_loss": 2.1767233679705216,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1767233679705216
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1862266018965104
+      },
+      {
+        "value": 1,
+        "loss": 2.1981019770502326
+      },
+      {
+        "value": 10,
+        "loss": 2.2077865670792063
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "4",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0563384125634343,
+    "inner_loss": 2.166418959969777,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.176379119840627
+      },
+      {
+        "value": 30,
+        "loss": 2.166418959969777
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "4",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.4378844478210346,
+    "inner_loss": 2.1987858693074784,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.1987858693074784
+      },
+      {
+        "value": 15,
+        "loss": 2.229998471417258
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "5",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1578738246849283,
+    "inner_loss": 2.215151770143533,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.215151770143533
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2190198645502743
+      },
+      {
+        "value": 1,
+        "loss": 2.232021634718425
+      },
+      {
+        "value": 10,
+        "loss": 2.2453181052049636
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "5",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1293618990121492,
+    "inner_loss": 2.180268977407512,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.180268977407512
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1928933763377665
+      },
+      {
+        "value": 1,
+        "loss": 2.209083841277293
+      },
+      {
+        "value": 10,
+        "loss": 2.2221200703057957
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "5",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0759916862065262,
+    "inner_loss": 2.1698542309971134,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.173264127652242
+      },
+      {
+        "value": 30,
+        "loss": 2.1698542309971134
+      }
+    ]
+  },
+  {
+    "regime": "random",
+    "fold": "5",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.4268951542879396,
+    "inner_loss": 2.1963679809161385,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.1963679809161385
+      },
+      {
+        "value": 15,
+        "loss": 2.228027083493313
+      }
+    ]
+  }
+]

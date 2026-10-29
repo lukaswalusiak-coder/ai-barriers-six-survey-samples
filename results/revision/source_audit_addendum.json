@@ -1,0 +1,20 @@
+{
+  "new_source_workbooks_match_original_hashes": true,
+  "all_fourteen_uploaded_excel_worksheets_read": true,
+  "six_spss_files_match_excel_values": true,
+  "new_york_ok_variant": "Coded data unchanged; labelled worksheet supplies value descriptions.",
+  "source_item_14": "Listed in the source questionnaire, absent from all six datasets; excluded from analysis. Reason for absence is not documented.",
+  "quality_flag_items": "Thirteen available variables p1-p13.",
+  "confidence_item": "Provider missing-value code99 occurs exactly among395 respondents who never useAI; no programmed routing rule is documented in the supplied questionnaire.",
+  "geographic_labels": "Provider-supplied sample contexts, not independently verified residence.",
+  "locality_size_variable": "miasta was not a predictor or an exclusion criterion. Code9 is labelled micro-town/village<=5000 in the source metadata; its meaning in the deployed questionnaires cannot be established from available material. Raw codes were retained.",
+  "locality_size_code9_counts": {
+    "GZM": 35,
+    "Istanbul": 436,
+    "Montreal": 9,
+    "New York": 285,
+    "Beijing": 327,
+    "Prague": 4
+  },
+  "deployed_language_versions": "Unavailable; Polish labels do not establish administered language or equivalence."
+}

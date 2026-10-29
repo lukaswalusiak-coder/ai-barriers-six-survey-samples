@@ -1,0 +1,116 @@
+[
+  {
+    "site": "GZM",
+    "file": "Zbiór_AŚ_Marcin_Budzinski_GZM.xlsx",
+    "sha256": "1a4e80a997add16ba8da7231cd4a9fabf356592585af83bc5870f3650ce4e6e7",
+    "n": 858,
+    "columns": 92,
+    "sheets": [
+      "Zbiór_AŚ_Marcin_Budzinski_GZM",
+      "Etykiety_wartości_danych"
+    ],
+    "all_consent": true,
+    "duplicate_ids": 0,
+    "duration_median": 8.416666666666666,
+    "under3": 9,
+    "straightline": 73,
+    "quality_flag": 80,
+    "start_min": null,
+    "start_max": null
+  },
+  {
+    "site": "Istanbul",
+    "file": "Zbiór_AŚ_Marcin_Budzinski_Istambuł.xlsx",
+    "sha256": "14aca6cca7819728c9de033447d5b13439b1545ed6d06db615e3f4b601be3c8c",
+    "n": 550,
+    "columns": 85,
+    "sheets": [
+      "zbiór_as_budzinski_istambuł",
+      "zbiór_as_budzinski_istambuł_ety"
+    ],
+    "all_consent": true,
+    "duplicate_ids": 0,
+    "duration_median": 7.4,
+    "under3": 5,
+    "straightline": 75,
+    "quality_flag": 78,
+    "start_min": "2026-06-03 14:31:37",
+    "start_max": "2026-06-22 11:50:49"
+  },
+  {
+    "site": "Montreal",
+    "file": "Zbiór_AŚ_Marcin_Budzinski_Montreal.xlsx",
+    "sha256": "9acd5b1ca096949706a4d8371c09adafc5048b9c0d8a4417d200d7b7b683ea89",
+    "n": 500,
+    "columns": 85,
+    "sheets": [
+      "zbiór_as_budzinski_montreal",
+      "zbiór_as_budzinski_montreal_ety"
+    ],
+    "all_consent": true,
+    "duplicate_ids": 0,
+    "duration_median": 7.7583333334999995,
+    "under3": 3,
+    "straightline": 40,
+    "quality_flag": 43,
+    "start_min": "2026-06-03 14:42:26",
+    "start_max": "2026-06-22 11:40:44"
+  },
+  {
+    "site": "New York",
+    "file": "Zbiór_AŚ_Marcin_Budzinski_Nowy_Jork.xlsx",
+    "sha256": "810d69a9ca01448156b6f4a6b947c4a407589ba4055d2089d57fd127a1955bd2",
+    "n": 550,
+    "columns": 85,
+    "sheets": [
+      "zbiór_as_budzinski_nowy_jork",
+      "zbiór_as_budzinski_nowy_jork_et"
+    ],
+    "all_consent": true,
+    "duplicate_ids": 0,
+    "duration_median": 8.2916666665,
+    "under3": 0,
+    "straightline": 48,
+    "quality_flag": 48,
+    "start_min": "2026-06-03 17:42:08",
+    "start_max": "2026-06-09 21:51:28"
+  },
+  {
+    "site": "Beijing",
+    "file": "Zbiór_AŚ_Marcin_Budzinski_Pekin.xlsx",
+    "sha256": "2d194781c3d1b9541b86b7fe4668936bf647d3838c052543d65477a283b7a937",
+    "n": 550,
+    "columns": 85,
+    "sheets": [
+      "zbiór_as_budzinski_pekin",
+      "zbiór_as_budzinski_pekin_etykie"
+    ],
+    "all_consent": true,
+    "duplicate_ids": 0,
+    "duration_median": 7.5249999985,
+    "under3": 0,
+    "straightline": 20,
+    "quality_flag": 20,
+    "start_min": "2026-06-03 17:37:56",
+    "start_max": "2026-06-10 18:24:38"
+  },
+  {
+    "site": "Prague",
+    "file": "Zbiór_AŚ_Marcin_Budzinski_Praga.xlsx",
+    "sha256": "468535e1bcb20f4634c1228bbe3f91c97727b01f23f32c1542a3fe925aee1356",
+    "n": 520,
+    "columns": 85,
+    "sheets": [
+      "zbiór_as_budzinski_praga",
+      "zbiór_as_budzinski_praga_etykie"
+    ],
+    "all_consent": true,
+    "duplicate_ids": 0,
+    "duration_median": 7.1,
+    "under3": 8,
+    "straightline": 31,
+    "quality_flag": 39,
+    "start_min": "2026-06-03 14:33:36",
+    "start_max": "2026-06-11 21:01:25"
+  }
+]

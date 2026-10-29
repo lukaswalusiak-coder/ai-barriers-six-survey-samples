@@ -1,0 +1,544 @@
+{
+  "primary": [
+    {
+      "model": "prior",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.2521609792308337,
+      "brier": 0.888507119088446,
+      "accuracy": 0.2058364413364413,
+      "macro_f1": 0.0338732580241537,
+      "macro_recall": 0.0999999999999999,
+      "ece": 0.0544989484877478
+    },
+    {
+      "model": "demo_lr",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.212057635060057,
+      "brier": 0.8826663505283637,
+      "accuracy": 0.2006515151515151,
+      "macro_f1": 0.0557512142825786,
+      "macro_recall": 0.1119439884485331,
+      "ece": 0.0436710648831967
+    },
+    {
+      "model": "lr",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1765499228845235,
+      "brier": 0.8746707250517275,
+      "accuracy": 0.2174110334110334,
+      "macro_f1": 0.0994484320836965,
+      "macro_recall": 0.1443521826072447,
+      "ece": 0.0387346252049903
+    },
+    {
+      "model": "rf",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1686912265878706,
+      "brier": 0.8734885580070438,
+      "accuracy": 0.220027195027195,
+      "macro_f1": 0.0934748535770312,
+      "macro_recall": 0.1478353871446393,
+      "ece": 0.0406675323492789
+    },
+    {
+      "model": "hgb",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.189713682674022,
+      "brier": 0.8788220934388177,
+      "accuracy": 0.2022905982905982,
+      "macro_f1": 0.1251278465169743,
+      "macro_recall": 0.1519782734172586,
+      "ece": 0.0509820729289226
+    },
+    {
+      "model": "demo_lr_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.210571497014,
+      "brier": 0.881980894381428,
+      "accuracy": 0.2006515151515151,
+      "macro_f1": 0.0557512142825786,
+      "macro_recall": 0.1119439884485331,
+      "ece": 0.0396593261193826
+    },
+    {
+      "model": "lr_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.17597918197634,
+      "brier": 0.8744913745109947,
+      "accuracy": 0.2174110334110334,
+      "macro_f1": 0.0994484320836965,
+      "macro_recall": 0.1443521826072447,
+      "ece": 0.0356913660221573
+    },
+    {
+      "model": "rf_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.169414271226594,
+      "brier": 0.873512148734182,
+      "accuracy": 0.220027195027195,
+      "macro_f1": 0.0934748535770312,
+      "macro_recall": 0.1478353871446393,
+      "ece": 0.0386115933780726
+    },
+    {
+      "model": "hgb_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.174316592532921,
+      "brier": 0.8744453458928995,
+      "accuracy": 0.2022905982905982,
+      "macro_f1": 0.1251278465169743,
+      "macro_recall": 0.1519782734172586,
+      "ece": 0.0308986162933767
+    }
+  ],
+  "random": [
+    {
+      "model": "prior",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.2187147243938123,
+      "brier": 0.8819096686109021,
+      "accuracy": 0.2058364413364413,
+      "macro_f1": 0.0338732580241537,
+      "macro_recall": 0.0999999999999999,
+      "ece": 0.0450728032575463
+    },
+    {
+      "model": "demo_lr",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1734275135624395,
+      "brier": 0.8745028668112419,
+      "accuracy": 0.209483682983683,
+      "macro_f1": 0.0599300018553857,
+      "macro_recall": 0.1140035725629555,
+      "ece": 0.0328157146038865
+    },
+    {
+      "model": "lr",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.136313899938772,
+      "brier": 0.8656871888296204,
+      "accuracy": 0.2280104895104895,
+      "macro_f1": 0.1095101770101224,
+      "macro_recall": 0.1503926920445333,
+      "ece": 0.0306016387391138
+    },
+    {
+      "model": "rf",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.117186634153979,
+      "brier": 0.8612012569067954,
+      "accuracy": 0.2352567987567987,
+      "macro_f1": 0.0988743891538479,
+      "macro_recall": 0.1538404862106231,
+      "ece": 0.0321606367415608
+    },
+    {
+      "model": "hgb",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1291035704993404,
+      "brier": 0.8633471251795871,
+      "accuracy": 0.2249972804972805,
+      "macro_f1": 0.1310119631377634,
+      "macro_recall": 0.1571429920801011,
+      "ece": 0.0329219490265496
+    },
+    {
+      "model": "demo_lr_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.177051661127298,
+      "brier": 0.8750712811283683,
+      "accuracy": 0.209483682983683,
+      "macro_f1": 0.0599300018553857,
+      "macro_recall": 0.1140035725629555,
+      "ece": 0.0357759697520704
+    },
+    {
+      "model": "lr_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1392040521562348,
+      "brier": 0.866435320231774,
+      "accuracy": 0.2280104895104895,
+      "macro_f1": 0.1095101770101224,
+      "macro_recall": 0.1503926920445333,
+      "ece": 0.0344602956540352
+    },
+    {
+      "model": "rf_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.120230498497868,
+      "brier": 0.8619885485479974,
+      "accuracy": 0.2352567987567987,
+      "macro_f1": 0.0988743891538479,
+      "macro_recall": 0.1538404862106231,
+      "ece": 0.0366972804834854
+    },
+    {
+      "model": "hgb_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1320491662717016,
+      "brier": 0.8641676608608121,
+      "accuracy": 0.2249972804972805,
+      "macro_f1": 0.1310119631377634,
+      "macro_recall": 0.1571429920801011,
+      "ece": 0.036933215076238
+    }
+  ],
+  "bootstrap": [
+    {
+      "contrast": "LR minus prior",
+      "estimate": -0.07561105634631031,
+      "lower": -0.08929338025909986,
+      "upper": -0.06089480119287668,
+      "B": 2000
+    },
+    {
+      "contrast": "RF minus prior",
+      "estimate": -0.08346975264296297,
+      "lower": -0.09757362440538782,
+      "upper": -0.06948468627954045,
+      "B": 2000
+    },
+    {
+      "contrast": "HGB T minus prior",
+      "estimate": -0.07784438669791317,
+      "lower": -0.09218083500384205,
+      "upper": -0.06354389136430798,
+      "B": 2000
+    },
+    {
+      "contrast": "LR minus demographic LR",
+      "estimate": -0.03550771217553363,
+      "lower": -0.044519757917084304,
+      "upper": -0.026450709738959105,
+      "B": 2000
+    },
+    {
+      "contrast": "RF minus LR",
+      "estimate": -0.007858696296652666,
+      "lower": -0.014767911497695189,
+      "upper": -0.0011961276027208792,
+      "B": 2000
+    },
+    {
+      "contrast": "RF T minus RF",
+      "estimate": 0.0007230446387227366,
+      "lower": -0.0010287063837713488,
+      "upper": 0.0024321907969102113,
+      "B": 2000
+    },
+    {
+      "contrast": "LOSO minus random RF",
+      "estimate": 0.0515045924338923,
+      "lower": 0.04601945156356422,
+      "upper": 0.057038547048720585,
+      "B": 2000
+    },
+    {
+      "contrast": "LOSO minus random LR",
+      "estimate": 0.04023602294575194,
+      "lower": 0.03573385068647897,
+      "upper": 0.04501043610200893,
+      "B": 2000
+    }
+  ],
+  "sample": [
+    {
+      "site": "Pooled",
+      "n": 3528,
+      "age_mean": 44.07823129251701,
+      "age_sd": 15.086541846026908,
+      "age_median": 43.0,
+      "female_n": 1719,
+      "higher_education_n": 2033,
+      "never_AI_n": 395,
+      "quality_excluded_n": 308
+    },
+    {
+      "site": "Beijing",
+      "n": 550,
+      "age_mean": 44.22909090909091,
+      "age_sd": 14.336010332389293,
+      "age_median": 43.0,
+      "female_n": 265,
+      "higher_education_n": 486,
+      "never_AI_n": 9,
+      "quality_excluded_n": 20
+    },
+    {
+      "site": "GZM",
+      "n": 858,
+      "age_mean": 47.52564102564103,
+      "age_sd": 15.76082672821664,
+      "age_median": 47.0,
+      "female_n": 444,
+      "higher_education_n": 355,
+      "never_AI_n": 148,
+      "quality_excluded_n": 80
+    },
+    {
+      "site": "Istanbul",
+      "n": 550,
+      "age_mean": 41.525454545454544,
+      "age_sd": 13.312767174011643,
+      "age_median": 39.5,
+      "female_n": 261,
+      "higher_education_n": 348,
+      "never_AI_n": 25,
+      "quality_excluded_n": 78
+    },
+    {
+      "site": "Montreal",
+      "n": 500,
+      "age_mean": 43.818,
+      "age_sd": 15.625273576763302,
+      "age_median": 42.0,
+      "female_n": 239,
+      "higher_education_n": 314,
+      "never_AI_n": 94,
+      "quality_excluded_n": 43
+    },
+    {
+      "site": "New York",
+      "n": 550,
+      "age_mean": 43.48,
+      "age_sd": 15.401208761967041,
+      "age_median": 42.0,
+      "female_n": 256,
+      "higher_education_n": 333,
+      "never_AI_n": 74,
+      "quality_excluded_n": 48
+    },
+    {
+      "site": "Prague",
+      "n": 520,
+      "age_mean": 41.81346153846154,
+      "age_sd": 14.624583110454369,
+      "age_median": 42.0,
+      "female_n": 254,
+      "higher_education_n": 197,
+      "never_AI_n": 45,
+      "quality_excluded_n": 39
+    }
+  ],
+  "outcome_totals": {
+    "Trust": 420,
+    "Knowledge / skills": 341,
+    "Privacy / data": 710,
+    "Jobs / unfair decisions": 358,
+    "Errors / quality": 403,
+    "Rules / accountability": 395,
+    "Cost": 276,
+    "Device / internet access": 163,
+    "No need": 172,
+    "Hard to say": 290
+  },
+  "importance": [
+    {
+      "block": "Benefit-risk appraisal",
+      "mean_loss_increase": 0.003627568264269783,
+      "sd": 0.0029539304674525333
+    },
+    {
+      "block": "Societal concern",
+      "mean_loss_increase": 0.007479048250425217,
+      "sd": 0.004332249625427816
+    },
+    {
+      "block": "Demographics",
+      "mean_loss_increase": 0.011666157640472583,
+      "sd": 0.0072181022362553
+    },
+    {
+      "block": "Everyday-task trust",
+      "mean_loss_increase": 0.016315144791451967,
+      "sd": 0.004079902278248767
+    },
+    {
+      "block": "Anticipated need",
+      "mean_loss_increase": 0.0169341688368379,
+      "sd": 0.0048762306557243
+    },
+    {
+      "block": "AI-use frequency",
+      "mean_loss_increase": 0.019717041339722984,
+      "sd": 0.00524499838242715
+    }
+  ],
+  "quality_n": 3220,
+  "source_n": 3528,
+  "primary_rf_class_recall": [
+    {
+      "label": "Trust",
+      "n": 420,
+      "recall": 0.0047619047619047
+    },
+    {
+      "label": "Knowledge / skills",
+      "n": 341,
+      "recall": 0.0
+    },
+    {
+      "label": "Privacy / data",
+      "n": 710,
+      "recall": 0.8619718309859155
+    },
+    {
+      "label": "Jobs / unfair decisions",
+      "n": 358,
+      "recall": 0.0055865921787709
+    },
+    {
+      "label": "Errors / quality",
+      "n": 403,
+      "recall": 0.0421836228287841
+    },
+    {
+      "label": "Rules / accountability",
+      "n": 395,
+      "recall": 0.0
+    },
+    {
+      "label": "Cost",
+      "n": 276,
+      "recall": 0.0
+    },
+    {
+      "label": "Device / internet access",
+      "n": 163,
+      "recall": 0.0
+    },
+    {
+      "label": "No need",
+      "n": 172,
+      "recall": 0.4186046511627907
+    },
+    {
+      "label": "Hard to say",
+      "n": 290,
+      "recall": 0.2
+    }
+  ],
+  "quality_full": [
+    {
+      "model": "prior",
+      "site": "Equal-site mean",
+      "n": 3220,
+      "log_loss": 2.24181075584888,
+      "brier": 0.8864635455373646,
+      "accuracy": 0.2089323061877882,
+      "macro_f1": 0.0342983200922356,
+      "macro_recall": 0.0999999999999999,
+      "ece": 0.0547839956347537
+    },
+    {
+      "model": "lr",
+      "site": "Equal-site mean",
+      "n": 3220,
+      "log_loss": 2.1736857046771543,
+      "brier": 0.8745343333993638,
+      "accuracy": 0.2160308976827702,
+      "macro_f1": 0.0938892580055388,
+      "macro_recall": 0.1375462569478458,
+      "ece": 0.0300779641006123
+    },
+    {
+      "model": "lr_temp",
+      "site": "Equal-site mean",
+      "n": 3220,
+      "log_loss": 2.173048969762448,
+      "brier": 0.8742707290993316,
+      "accuracy": 0.2160308976827702,
+      "macro_f1": 0.0938892580055388,
+      "macro_recall": 0.1375462569478458,
+      "ece": 0.0303939701488969
+    }
+  ],
+  "loso_no_concern": [
+    {
+      "model": "prior",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.2521609792308337,
+      "brier": 0.888507119088446,
+      "accuracy": 0.2058364413364413,
+      "macro_f1": 0.0338732580241537,
+      "macro_recall": 0.0999999999999999,
+      "ece": 0.0544989484877478
+    },
+    {
+      "model": "lr",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1832614796873018,
+      "brier": 0.8763890063622837,
+      "accuracy": 0.2176029526029525,
+      "macro_f1": 0.0937878139060034,
+      "macro_recall": 0.1425417820870428,
+      "ece": 0.0407479288718081
+    },
+    {
+      "model": "lr_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.182361879325681,
+      "brier": 0.8761323147514171,
+      "accuracy": 0.2176029526029525,
+      "macro_f1": 0.0937878139060034,
+      "macro_recall": 0.1425417820870428,
+      "ece": 0.0420077972118516
+    }
+  ],
+  "loso_categorical": [
+    {
+      "model": "prior",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.2521609792308337,
+      "brier": 0.888507119088446,
+      "accuracy": 0.2058364413364413,
+      "macro_f1": 0.0338732580241537,
+      "macro_recall": 0.0999999999999999,
+      "ece": 0.0544989484877478
+    },
+    {
+      "model": "lr",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1972247760631,
+      "brier": 0.8797056147363033,
+      "accuracy": 0.200999222999223,
+      "macro_f1": 0.0838000141017639,
+      "macro_recall": 0.1261950615307378,
+      "ece": 0.0415318873187216
+    },
+    {
+      "model": "lr_temp",
+      "site": "Equal-site mean",
+      "n": 3528,
+      "log_loss": 2.1935621473823987,
+      "brier": 0.8785314750510324,
+      "accuracy": 0.200999222999223,
+      "macro_f1": 0.0838000141017639,
+      "macro_recall": 0.1261950615307378,
+      "ece": 0.0328657242318467
+    }
+  ]
+}

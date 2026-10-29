@@ -1,0 +1,2862 @@
+[
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0899444214969083,
+    "inner_loss": 2.17350072170998,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.17350072170998
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1842559566016364
+      },
+      {
+        "value": 1,
+        "loss": 2.1977788110247554
+      },
+      {
+        "value": 10,
+        "loss": 2.20620946261488
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0284017875568767,
+    "inner_loss": 2.162287953560715,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.169768277049962
+      },
+      {
+        "value": 30,
+        "loss": 2.162287953560715
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 0.01,
+    "temperature": 1.1790379151300223,
+    "inner_loss": 2.184117244534005,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.184117244534005
+      },
+      {
+        "value": 0.1,
+        "loss": 2.199717711126262
+      },
+      {
+        "value": 1,
+        "loss": 2.2163823913776026
+      },
+      {
+        "value": 10,
+        "loss": 2.2287468606162086
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 30,
+    "temperature": 1.1391399171210117,
+    "inner_loss": 2.178527817297776,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.187473555676135
+      },
+      {
+        "value": 30,
+        "loss": 2.178527817297776
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.1011143345325545,
+    "inner_loss": 2.1761383608658353,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1761383608658353
+      },
+      {
+        "value": 0.1,
+        "loss": 2.186857001887603
+      },
+      {
+        "value": 1,
+        "loss": 2.2005886380169173
+      },
+      {
+        "value": 10,
+        "loss": 2.2122923340042906
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0600064667802478,
+    "inner_loss": 2.1690634638899606,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.173584023973514
+      },
+      {
+        "value": 30,
+        "loss": 2.1690634638899606
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 0.01,
+    "temperature": 1.1941866250194357,
+    "inner_loss": 2.190935900999622,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.190935900999622
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2122523837750236
+      },
+      {
+        "value": 1,
+        "loss": 2.2317466143380846
+      },
+      {
+        "value": 10,
+        "loss": 2.2460230903085585
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 30,
+    "temperature": 1.1355390742128826,
+    "inner_loss": 2.1816061783631184,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1899938189020727
+      },
+      {
+        "value": 30,
+        "loss": 2.1816061783631184
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.1843839586074112,
+    "inner_loss": 2.1956430958798174,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1956430958798174
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2099185820309097
+      },
+      {
+        "value": 1,
+        "loss": 2.230302219682279
+      },
+      {
+        "value": 10,
+        "loss": 2.2475707980348893
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.1584716418853582,
+    "inner_loss": 2.190173781603124,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1967733705511727
+      },
+      {
+        "value": 30,
+        "loss": 2.190173781603124
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 0.01,
+    "temperature": 1.2116773055274235,
+    "inner_loss": 2.1941333068087565,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1941333068087565
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2124448950838564
+      },
+      {
+        "value": 1,
+        "loss": 2.229956559263402
+      },
+      {
+        "value": 10,
+        "loss": 2.242599636693591
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 30,
+    "temperature": 1.159890060327808,
+    "inner_loss": 2.1836999042240075,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1949488164784077
+      },
+      {
+        "value": 30,
+        "loss": 2.1836999042240075
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "1",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1293477133049525,
+    "inner_loss": 2.1783561691257374,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1783561691257374
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1935044770963166
+      },
+      {
+        "value": 1,
+        "loss": 2.2074311918695653
+      },
+      {
+        "value": 10,
+        "loss": 2.217093424070484
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "1",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0679763447159796,
+    "inner_loss": 2.166468624420902,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1771530627451448
+      },
+      {
+        "value": 30,
+        "loss": 2.166468624420902
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "2",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1351752557180996,
+    "inner_loss": 2.1831231425697055,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1831231425697055
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1989121790525283
+      },
+      {
+        "value": 1,
+        "loss": 2.216104398998821
+      },
+      {
+        "value": 10,
+        "loss": 2.2286850620581418
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "2",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0953608211158523,
+    "inner_loss": 2.177028820877427,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1899820939237893
+      },
+      {
+        "value": 30,
+        "loss": 2.177028820877427
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "3",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1272425642717931,
+    "inner_loss": 2.1808054130703796,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1808054130703796
+      },
+      {
+        "value": 0.1,
+        "loss": 2.194238777918245
+      },
+      {
+        "value": 1,
+        "loss": 2.20738163124927
+      },
+      {
+        "value": 10,
+        "loss": 2.218548006085175
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "3",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0808441177905477,
+    "inner_loss": 2.1717481286446163,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.181198817612266
+      },
+      {
+        "value": 30,
+        "loss": 2.1717481286446163
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "4",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.098270637524348,
+    "inner_loss": 2.174628733418228,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.174628733418228
+      },
+      {
+        "value": 0.1,
+        "loss": 2.18499355931124
+      },
+      {
+        "value": 1,
+        "loss": 2.197351748166355
+      },
+      {
+        "value": 10,
+        "loss": 2.2068682269063133
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "4",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.0597362545305957,
+    "inner_loss": 2.1664766327230365,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1757305584729285
+      },
+      {
+        "value": 30,
+        "loss": 2.1664766327230365
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "5",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.1254971461568848,
+    "inner_loss": 2.179296552482948,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.179296552482948
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1921034366483423
+      },
+      {
+        "value": 1,
+        "loss": 2.208892718158111
+      },
+      {
+        "value": 10,
+        "loss": 2.2233161487848014
+      }
+    ]
+  },
+  {
+    "repetition": 1,
+    "subsample_seed": 20261028,
+    "regime": "random",
+    "fold": "5",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.0675577061805246,
+    "inner_loss": 2.167077318091119,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1770109778820865
+      },
+      {
+        "value": 30,
+        "loss": 2.167077318091119
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0852571436648792,
+    "inner_loss": 2.1719082394085927,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1719082394085927
+      },
+      {
+        "value": 0.1,
+        "loss": 2.182799652203814
+      },
+      {
+        "value": 1,
+        "loss": 2.196689167153578
+      },
+      {
+        "value": 10,
+        "loss": 2.2057210170871118
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0296735412984295,
+    "inner_loss": 2.16235002841848,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1704030246061885
+      },
+      {
+        "value": 30,
+        "loss": 2.16235002841848
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 0.01,
+    "temperature": 1.1790379151300223,
+    "inner_loss": 2.184117244534005,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.184117244534005
+      },
+      {
+        "value": 0.1,
+        "loss": 2.199717711126262
+      },
+      {
+        "value": 1,
+        "loss": 2.2163823913776026
+      },
+      {
+        "value": 10,
+        "loss": 2.2287468606162086
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 30,
+    "temperature": 1.1391399171210117,
+    "inner_loss": 2.178527817297776,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.187473555676135
+      },
+      {
+        "value": 30,
+        "loss": 2.178527817297776
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0877768829074361,
+    "inner_loss": 2.174423283759651,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.174423283759651
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1821372143317257
+      },
+      {
+        "value": 1,
+        "loss": 2.196485492171901
+      },
+      {
+        "value": 10,
+        "loss": 2.2090247372176988
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.03689471508366,
+    "inner_loss": 2.163643112415491,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.170783918905399
+      },
+      {
+        "value": 30,
+        "loss": 2.163643112415491
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 0.01,
+    "temperature": 1.1807292842035648,
+    "inner_loss": 2.1870531299341343,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1870531299341343
+      },
+      {
+        "value": 0.1,
+        "loss": 2.204425733715439
+      },
+      {
+        "value": 1,
+        "loss": 2.221623684305836
+      },
+      {
+        "value": 10,
+        "loss": 2.234239361462508
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 30,
+    "temperature": 1.1278382414712669,
+    "inner_loss": 2.1775550612872694,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.183516512498206
+      },
+      {
+        "value": 30,
+        "loss": 2.1775550612872694
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.1791816010698934,
+    "inner_loss": 2.1951470872666645,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1951470872666645
+      },
+      {
+        "value": 0.1,
+        "loss": 2.205212408298699
+      },
+      {
+        "value": 1,
+        "loss": 2.2209872894460747
+      },
+      {
+        "value": 10,
+        "loss": 2.2362271317210327
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.1262166120656276,
+    "inner_loss": 2.1855780773341995,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1963435820161497
+      },
+      {
+        "value": 30,
+        "loss": 2.1855780773341995
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 0.01,
+    "temperature": 1.2327721734255308,
+    "inner_loss": 2.1997248090091674,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1997248090091674
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2176484351858314
+      },
+      {
+        "value": 1,
+        "loss": 2.2364899521799666
+      },
+      {
+        "value": 10,
+        "loss": 2.251668620001372
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 30,
+    "temperature": 1.1539016335065726,
+    "inner_loss": 2.184726378424751,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.198282425246442
+      },
+      {
+        "value": 30,
+        "loss": 2.184726378424751
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "1",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1137825170433084,
+    "inner_loss": 2.1758535814173077,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1758535814173077
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1882814442283416
+      },
+      {
+        "value": 1,
+        "loss": 2.201695384160476
+      },
+      {
+        "value": 10,
+        "loss": 2.2117599222767175
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "1",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0675216346288872,
+    "inner_loss": 2.1682111321731288,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1807019591451144
+      },
+      {
+        "value": 30,
+        "loss": 2.1682111321731288
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "2",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1416880444379576,
+    "inner_loss": 2.186038695022576,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.186038695022576
+      },
+      {
+        "value": 0.1,
+        "loss": 2.200858638913084
+      },
+      {
+        "value": 1,
+        "loss": 2.2159852524569734
+      },
+      {
+        "value": 10,
+        "loss": 2.2287447473532205
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "2",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0907130590419198,
+    "inner_loss": 2.17776844106449,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.189843047245921
+      },
+      {
+        "value": 30,
+        "loss": 2.17776844106449
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "3",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.127458668655509,
+    "inner_loss": 2.1810096385869717,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1810096385869717
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1946828274082724
+      },
+      {
+        "value": 1,
+        "loss": 2.2080135597518358
+      },
+      {
+        "value": 10,
+        "loss": 2.220098511098009
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "3",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0808057249809366,
+    "inner_loss": 2.1716439935453837,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1837054726673277
+      },
+      {
+        "value": 30,
+        "loss": 2.1716439935453837
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "4",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.1035305745933013,
+    "inner_loss": 2.177312103031706,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.177312103031706
+      },
+      {
+        "value": 0.1,
+        "loss": 2.188545558955996
+      },
+      {
+        "value": 1,
+        "loss": 2.202183512816987
+      },
+      {
+        "value": 10,
+        "loss": 2.2134597817669897
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "4",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.0620852403018808,
+    "inner_loss": 2.169004042751689,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.174685957093852
+      },
+      {
+        "value": 30,
+        "loss": 2.169004042751689
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "5",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.1262593618333834,
+    "inner_loss": 2.180208783866383,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.180208783866383
+      },
+      {
+        "value": 0.1,
+        "loss": 2.193670157860955
+      },
+      {
+        "value": 1,
+        "loss": 2.210061820201455
+      },
+      {
+        "value": 10,
+        "loss": 2.2228849208507104
+      }
+    ]
+  },
+  {
+    "repetition": 2,
+    "subsample_seed": 20261029,
+    "regime": "random",
+    "fold": "5",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.060659150249895,
+    "inner_loss": 2.167429343531744,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.174160610284837
+      },
+      {
+        "value": 30,
+        "loss": 2.167429343531744
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0933744670793901,
+    "inner_loss": 2.174695064742772,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.174695064742772
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1848665237388296
+      },
+      {
+        "value": 1,
+        "loss": 2.1975196577536655
+      },
+      {
+        "value": 10,
+        "loss": 2.2070877609966058
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0237417961989694,
+    "inner_loss": 2.161424860760719,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1712010750885726
+      },
+      {
+        "value": 30,
+        "loss": 2.161424860760719
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 0.01,
+    "temperature": 1.1790379151300223,
+    "inner_loss": 2.184117244534005,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.184117244534005
+      },
+      {
+        "value": 0.1,
+        "loss": 2.199717711126262
+      },
+      {
+        "value": 1,
+        "loss": 2.2163823913776026
+      },
+      {
+        "value": 10,
+        "loss": 2.2287468606162086
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 30,
+    "temperature": 1.1391399171210117,
+    "inner_loss": 2.178527817297776,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.187473555676135
+      },
+      {
+        "value": 30,
+        "loss": 2.178527817297776
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0765673957104889,
+    "inner_loss": 2.1680492090118375,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1680492090118375
+      },
+      {
+        "value": 0.1,
+        "loss": 2.177998623381103
+      },
+      {
+        "value": 1,
+        "loss": 2.192274968943157
+      },
+      {
+        "value": 10,
+        "loss": 2.2033066400999672
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.01034524026184,
+    "inner_loss": 2.1566494614532545,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.162302896153386
+      },
+      {
+        "value": 30,
+        "loss": 2.1566494614532545
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 0.01,
+    "temperature": 1.1816300954855419,
+    "inner_loss": 2.1860556040782777,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1860556040782777
+      },
+      {
+        "value": 0.1,
+        "loss": 2.20494681458307
+      },
+      {
+        "value": 1,
+        "loss": 2.222844771475624
+      },
+      {
+        "value": 10,
+        "loss": 2.235977476856186
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 30,
+    "temperature": 1.1214986031300067,
+    "inner_loss": 2.1741596326147823,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.179464592282486
+      },
+      {
+        "value": 30,
+        "loss": 2.1741596326147823
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.1700552760868255,
+    "inner_loss": 2.1944136502504903,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1944136502504903
+      },
+      {
+        "value": 0.1,
+        "loss": 2.204297937696661
+      },
+      {
+        "value": 1,
+        "loss": 2.2220838673977767
+      },
+      {
+        "value": 10,
+        "loss": 2.2399512342762837
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.1406553494474705,
+    "inner_loss": 2.1881328081360296,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1975751676666384
+      },
+      {
+        "value": 30,
+        "loss": 2.1881328081360296
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 0.01,
+    "temperature": 1.1968417304746153,
+    "inner_loss": 2.1920096010441865,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1920096010441865
+      },
+      {
+        "value": 0.1,
+        "loss": 2.20844478366977
+      },
+      {
+        "value": 1,
+        "loss": 2.22535406076952
+      },
+      {
+        "value": 10,
+        "loss": 2.2386958061121103
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 30,
+    "temperature": 1.147588533584471,
+    "inner_loss": 2.184783221785319,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.191448389351824
+      },
+      {
+        "value": 30,
+        "loss": 2.184783221785319
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "1",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.0983236838884802,
+    "inner_loss": 2.169750850039396,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.169750850039396
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1827992950963995
+      },
+      {
+        "value": 1,
+        "loss": 2.1980280418119467
+      },
+      {
+        "value": 10,
+        "loss": 2.2095989217391625
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "1",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0596217850612397,
+    "inner_loss": 2.1625251820667946,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1740936884866944
+      },
+      {
+        "value": 30,
+        "loss": 2.1625251820667946
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "2",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.138368309619911,
+    "inner_loss": 2.1828461738910185,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1828461738910185
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1988235524685424
+      },
+      {
+        "value": 1,
+        "loss": 2.214882086834194
+      },
+      {
+        "value": 10,
+        "loss": 2.2278744864628184
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "2",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.115012862431558,
+    "inner_loss": 2.1814837348605685,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.193176720217473
+      },
+      {
+        "value": 30,
+        "loss": 2.1814837348605685
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "3",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.122404070662444,
+    "inner_loss": 2.1808658916454386,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1808658916454386
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1945779362257056
+      },
+      {
+        "value": 1,
+        "loss": 2.2086904226675403
+      },
+      {
+        "value": 10,
+        "loss": 2.22074897970562
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "3",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0892058478569557,
+    "inner_loss": 2.1737763816685427,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1862717322921372
+      },
+      {
+        "value": 30,
+        "loss": 2.1737763816685427
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "4",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.0976846763937682,
+    "inner_loss": 2.1761076905674805,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1761076905674805
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1857199634765148
+      },
+      {
+        "value": 1,
+        "loss": 2.198487755162079
+      },
+      {
+        "value": 10,
+        "loss": 2.2093357917224963
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "4",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.0606163012750296,
+    "inner_loss": 2.1679922553612196,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1752209618944467
+      },
+      {
+        "value": 30,
+        "loss": 2.1679922553612196
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "5",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.1236939196997349,
+    "inner_loss": 2.179111890217609,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.179111890217609
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1910712013542395
+      },
+      {
+        "value": 1,
+        "loss": 2.2067735704462534
+      },
+      {
+        "value": 10,
+        "loss": 2.2192940438785542
+      }
+    ]
+  },
+  {
+    "repetition": 3,
+    "subsample_seed": 20261030,
+    "regime": "random",
+    "fold": "5",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.0755124882056044,
+    "inner_loss": 2.168851828179257,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.175605311061537
+      },
+      {
+        "value": 30,
+        "loss": 2.168851828179257
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.103013614659673,
+    "inner_loss": 2.177532428935765,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.177532428935765
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1906257606090196
+      },
+      {
+        "value": 1,
+        "loss": 2.205244992202842
+      },
+      {
+        "value": 10,
+        "loss": 2.215267043368773
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0460929142869935,
+    "inner_loss": 2.1670523092514657,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1777748307562983
+      },
+      {
+        "value": 30,
+        "loss": 2.1670523092514657
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 0.01,
+    "temperature": 1.1790379151300223,
+    "inner_loss": 2.184117244534005,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.184117244534005
+      },
+      {
+        "value": 0.1,
+        "loss": 2.199717711126262
+      },
+      {
+        "value": 1,
+        "loss": 2.2163823913776026
+      },
+      {
+        "value": 10,
+        "loss": 2.2287468606162086
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 30,
+    "temperature": 1.1391399171210117,
+    "inner_loss": 2.178527817297776,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.187473555676135
+      },
+      {
+        "value": 30,
+        "loss": 2.178527817297776
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0907220077535678,
+    "inner_loss": 2.1730835310500125,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1730835310500125
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1837925390377246
+      },
+      {
+        "value": 1,
+        "loss": 2.1984055382094527
+      },
+      {
+        "value": 10,
+        "loss": 2.209267385763439
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0285818052673181,
+    "inner_loss": 2.1610956762304903,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1684795641599557
+      },
+      {
+        "value": 30,
+        "loss": 2.1610956762304903
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 0.01,
+    "temperature": 1.1884635673876218,
+    "inner_loss": 2.188920225463089,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.188920225463089
+      },
+      {
+        "value": 0.1,
+        "loss": 2.207940196567624
+      },
+      {
+        "value": 1,
+        "loss": 2.2267243736188767
+      },
+      {
+        "value": 10,
+        "loss": 2.240620728397738
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 30,
+    "temperature": 1.1112461025176628,
+    "inner_loss": 2.174943224607798,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1847673108914885
+      },
+      {
+        "value": 30,
+        "loss": 2.174943224607798
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.169529362183655,
+    "inner_loss": 2.1922788756527902,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1922788756527902
+      },
+      {
+        "value": 0.1,
+        "loss": 2.202166454412551
+      },
+      {
+        "value": 1,
+        "loss": 2.2190226915049167
+      },
+      {
+        "value": 10,
+        "loss": 2.2353530268083044
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.1256393235745612,
+    "inner_loss": 2.182740063672465,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.18986894163844
+      },
+      {
+        "value": 30,
+        "loss": 2.182740063672465
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 0.01,
+    "temperature": 1.210899682786436,
+    "inner_loss": 2.1943025053379315,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1943025053379315
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2115995000545623
+      },
+      {
+        "value": 1,
+        "loss": 2.2330632057856192
+      },
+      {
+        "value": 10,
+        "loss": 2.2518748013841887
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 30,
+    "temperature": 1.1569439696648767,
+    "inner_loss": 2.1840780541709575,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.193413473278459
+      },
+      {
+        "value": 30,
+        "loss": 2.1840780541709575
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "1",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.0976314202270527,
+    "inner_loss": 2.1698064277280533,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1698064277280533
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1825151271002263
+      },
+      {
+        "value": 1,
+        "loss": 2.195856505177841
+      },
+      {
+        "value": 10,
+        "loss": 2.203727396296878
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "1",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0636300471756912,
+    "inner_loss": 2.1641709130031432,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1751870147125967
+      },
+      {
+        "value": 30,
+        "loss": 2.1641709130031432
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "2",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1310197579382057,
+    "inner_loss": 2.1822196680232713,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1822196680232713
+      },
+      {
+        "value": 0.1,
+        "loss": 2.196341351887234
+      },
+      {
+        "value": 1,
+        "loss": 2.21087000028402
+      },
+      {
+        "value": 10,
+        "loss": 2.222763777072375
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "2",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.091173511260978,
+    "inner_loss": 2.1771629393611582,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1870322243458316
+      },
+      {
+        "value": 30,
+        "loss": 2.1771629393611582
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "3",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1294874129151187,
+    "inner_loss": 2.18295745594644,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.18295745594644
+      },
+      {
+        "value": 0.1,
+        "loss": 2.196486612165575
+      },
+      {
+        "value": 1,
+        "loss": 2.2093188423026358
+      },
+      {
+        "value": 10,
+        "loss": 2.2214454010718625
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "3",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0865472660707178,
+    "inner_loss": 2.1739035010837493,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.188237735313394
+      },
+      {
+        "value": 30,
+        "loss": 2.1739035010837493
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "4",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.1035790006784172,
+    "inner_loss": 2.177752728854678,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.177752728854678
+      },
+      {
+        "value": 0.1,
+        "loss": 2.187391085691265
+      },
+      {
+        "value": 1,
+        "loss": 2.2004205873113505
+      },
+      {
+        "value": 10,
+        "loss": 2.211451301999936
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "4",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.062709349465561,
+    "inner_loss": 2.167440388977899,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1738647617946936
+      },
+      {
+        "value": 30,
+        "loss": 2.167440388977899
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "5",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.1076443875621242,
+    "inner_loss": 2.173841096529426,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.173841096529426
+      },
+      {
+        "value": 0.1,
+        "loss": 2.185200205093475
+      },
+      {
+        "value": 1,
+        "loss": 2.2026045512225214
+      },
+      {
+        "value": 10,
+        "loss": 2.217261884536
+      }
+    ]
+  },
+  {
+    "repetition": 4,
+    "subsample_seed": 20261031,
+    "regime": "random",
+    "fold": "5",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.0452940869731357,
+    "inner_loss": 2.160151580798801,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1676659134735767
+      },
+      {
+        "value": 30,
+        "loss": 2.160151580798801
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0867112220878443,
+    "inner_loss": 2.1715992696794975,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1715992696794975
+      },
+      {
+        "value": 0.1,
+        "loss": 2.181505376367933
+      },
+      {
+        "value": 1,
+        "loss": 2.1949869773858612
+      },
+      {
+        "value": 10,
+        "loss": 2.204185328686958
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0291336939770195,
+    "inner_loss": 2.159144418831323,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.167725934969618
+      },
+      {
+        "value": 30,
+        "loss": 2.159144418831323
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 0.01,
+    "temperature": 1.1790379151300223,
+    "inner_loss": 2.184117244534005,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.184117244534005
+      },
+      {
+        "value": 0.1,
+        "loss": 2.199717711126262
+      },
+      {
+        "value": 1,
+        "loss": 2.2163823913776026
+      },
+      {
+        "value": 10,
+        "loss": 2.2287468606162086
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 858,
+    "parameter": 30,
+    "temperature": 1.1391399171210117,
+    "inner_loss": 2.178527817297776,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.187473555676135
+      },
+      {
+        "value": 30,
+        "loss": 2.178527817297776
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.0963944676870991,
+    "inner_loss": 2.1758230463110984,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1758230463110984
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1868256309089333
+      },
+      {
+        "value": 1,
+        "loss": 2.2024227510034846
+      },
+      {
+        "value": 10,
+        "loss": 2.2149499592874786
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.0369844835304716,
+    "inner_loss": 2.1644475195991117,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1694340999608004
+      },
+      {
+        "value": 30,
+        "loss": 2.1644475195991117
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 0.01,
+    "temperature": 1.175307272572073,
+    "inner_loss": 2.183773111193974,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.183773111193974
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2029056827242988
+      },
+      {
+        "value": 1,
+        "loss": 2.2216994356847133
+      },
+      {
+        "value": 10,
+        "loss": 2.2371875807596924
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 500,
+    "parameter": 30,
+    "temperature": 1.0964002721899604,
+    "inner_loss": 2.1674727377102903,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1752864991418357
+      },
+      {
+        "value": 30,
+        "loss": 2.1674727377102903
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 0.01,
+    "temperature": 1.166892590099355,
+    "inner_loss": 2.192604937067806,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.192604937067806
+      },
+      {
+        "value": 0.1,
+        "loss": 2.203217104007922
+      },
+      {
+        "value": 1,
+        "loss": 2.2218898756196626
+      },
+      {
+        "value": 10,
+        "loss": 2.2392270846951208
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "New York",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 550,
+    "parameter": 30,
+    "temperature": 1.1313783630813954,
+    "inner_loss": 2.186577782462792,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.197116265960005
+      },
+      {
+        "value": 30,
+        "loss": 2.186577782462792
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 0.01,
+    "temperature": 1.2066259703761173,
+    "inner_loss": 2.1929574220376105,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1929574220376105
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2087929054600552
+      },
+      {
+        "value": 1,
+        "loss": 2.2259281223752927
+      },
+      {
+        "value": 10,
+        "loss": 2.240751477147691
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 520,
+    "parameter": 30,
+    "temperature": 1.1582123575763021,
+    "inner_loss": 2.1852475758939978,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.198140074384425
+      },
+      {
+        "value": 30,
+        "loss": 2.1852475758939978
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "1",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1141916556925868,
+    "inner_loss": 2.1765418918344586,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1765418918344586
+      },
+      {
+        "value": 0.1,
+        "loss": 2.190863195248991
+      },
+      {
+        "value": 1,
+        "loss": 2.2058877174149885
+      },
+      {
+        "value": 10,
+        "loss": 2.216263120727396
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "1",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0690157549352557,
+    "inner_loss": 2.1690756824475206,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.178395830925078
+      },
+      {
+        "value": 30,
+        "loss": 2.1690756824475206
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "2",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1143857280152418,
+    "inner_loss": 2.177444063020785,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.177444063020785
+      },
+      {
+        "value": 0.1,
+        "loss": 2.18983944567406
+      },
+      {
+        "value": 1,
+        "loss": 2.2049675778228206
+      },
+      {
+        "value": 10,
+        "loss": 2.217885726831485
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "2",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.0973117644152681,
+    "inner_loss": 2.176853106143909,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1875506791926127
+      },
+      {
+        "value": 30,
+        "loss": 2.176853106143909
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "3",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 0.01,
+    "temperature": 1.1396734440722216,
+    "inner_loss": 2.186404724141064,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.186404724141064
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2009086485014135
+      },
+      {
+        "value": 1,
+        "loss": 2.2134557223965516
+      },
+      {
+        "value": 10,
+        "loss": 2.2245336953681196
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "3",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 706,
+    "parameter": 30,
+    "temperature": 1.1040069247029525,
+    "inner_loss": 2.1782696582488614,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.19322805398579
+      },
+      {
+        "value": 30,
+        "loss": 2.1782696582488614
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "4",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.0985933899896605,
+    "inner_loss": 2.174872475105718,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.174872475105718
+      },
+      {
+        "value": 0.1,
+        "loss": 2.185010973805542
+      },
+      {
+        "value": 1,
+        "loss": 2.1975295451365047
+      },
+      {
+        "value": 10,
+        "loss": 2.208025025299848
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "4",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.054789988256312,
+    "inner_loss": 2.1649812418134804,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.170727423221991
+      },
+      {
+        "value": 30,
+        "loss": 2.1649812418134804
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "5",
+    "family": "lr",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 0.01,
+    "temperature": 1.1471645371333246,
+    "inner_loss": 2.1864103984920154,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1864103984920154
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2006238021270543
+      },
+      {
+        "value": 1,
+        "loss": 2.217655383043256
+      },
+      {
+        "value": 10,
+        "loss": 2.2311288706261583
+      }
+    ]
+  },
+  {
+    "repetition": 5,
+    "subsample_seed": 20261032,
+    "regime": "random",
+    "fold": "5",
+    "family": "rf",
+    "train_n": 2670,
+    "test_n": 705,
+    "parameter": 30,
+    "temperature": 1.0818878335061588,
+    "inner_loss": 2.172855074709306,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.181236110144392
+      },
+      {
+        "value": 30,
+        "loss": 2.172855074709306
+      }
+    ]
+  }
+]

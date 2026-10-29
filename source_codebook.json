@@ -1,0 +1,1090 @@
+{
+  "id": {
+    "GZM": {
+      "source_column": "ID",
+      "labelled_column": "ID",
+      "position_zero_based": 0
+    },
+    "Istanbul": {
+      "source_column": "id",
+      "labelled_column": "ID",
+      "position_zero_based": 1
+    },
+    "Montreal": {
+      "source_column": "id",
+      "labelled_column": "Respondent ID",
+      "position_zero_based": 1
+    },
+    "New York": {
+      "source_column": "id",
+      "labelled_column": "ID",
+      "position_zero_based": 1
+    },
+    "Beijing": {
+      "source_column": "id",
+      "labelled_column": "Column2",
+      "position_zero_based": 1
+    },
+    "Prague": {
+      "source_column": "id",
+      "labelled_column": "ID",
+      "position_zero_based": 1
+    }
+  },
+  "duration_min": {
+    "GZM": {
+      "source_column": "Czas trwania ankiety w sekundach",
+      "labelled_column": "Czas trwania ankiety w sekundach",
+      "position_zero_based": 1
+    },
+    "Istanbul": {
+      "source_column": "survey_finish_time",
+      "labelled_column": "Czas trwania ankiety w minutach",
+      "position_zero_based": 2
+    },
+    "Montreal": {
+      "source_column": "survey_finish_time",
+      "labelled_column": "Czas trwania ankiety w minutach",
+      "position_zero_based": 2
+    },
+    "New York": {
+      "source_column": "survey_finish_time",
+      "labelled_column": "Czas trwania ankiety w minutach",
+      "position_zero_based": 2
+    },
+    "Beijing": {
+      "source_column": "survey_finish_time",
+      "labelled_column": "Column3",
+      "position_zero_based": 2
+    },
+    "Prague": {
+      "source_column": "survey_finish_time",
+      "labelled_column": "Czas trwania ankiety w minutach",
+      "position_zero_based": 2
+    }
+  },
+  "sex": {
+    "GZM": {
+      "source_column": "Jaka jest Twoja płeć?",
+      "labelled_column": "Jaka jest Twoja płeć?",
+      "position_zero_based": 2
+    },
+    "Istanbul": {
+      "source_column": "sex",
+      "labelled_column": "Jaka jest Twoja płeć?",
+      "position_zero_based": 5
+    },
+    "Montreal": {
+      "source_column": "sex",
+      "labelled_column": "Jaka jest Twoja płeć?",
+      "position_zero_based": 5
+    },
+    "New York": {
+      "source_column": "sex",
+      "labelled_column": "Jaka jest Twoja płeć?",
+      "position_zero_based": 5
+    },
+    "Beijing": {
+      "source_column": "sex",
+      "labelled_column": "Column6",
+      "position_zero_based": 5
+    },
+    "Prague": {
+      "source_column": "sex",
+      "labelled_column": "Jaka jest Twoja płeć?",
+      "position_zero_based": 5
+    }
+  },
+  "consent": {
+    "GZM": {
+      "source_column": "Wyrażam zgodę na udział w badaniu, a także na przetwarzanie oraz przechowywanie moich danych na potrzeby publikacji naukowych. (...)",
+      "labelled_column": "Wyrażam zgodę na udział w badaniu, a także na przetwarzanie oraz przechowywanie moich danych na potrzeby publikacji naukowych. (...)",
+      "position_zero_based": 4
+    },
+    "Istanbul": {
+      "source_column": "zgoda",
+      "labelled_column": "Wyrażam zgodę na udział w badaniu, a także na przetwarzanie oraz przechowywanie moich danych na potrzeby publikacji naukowych. (...)",
+      "position_zero_based": 4
+    },
+    "Montreal": {
+      "source_column": "zgoda",
+      "labelled_column": "Wyrażam zgodę na udział w badaniu, a także na przetwarzanie oraz przechowywanie moich danych na potrzeby publikacji naukowych. (...)",
+      "position_zero_based": 4
+    },
+    "New York": {
+      "source_column": "zgoda",
+      "labelled_column": "Wyrażam zgodę na udział w badaniu, a także na przetwarzanie oraz przechowywanie moich danych na potrzeby publikacji naukowych. (...)",
+      "position_zero_based": 4
+    },
+    "Beijing": {
+      "source_column": "zgoda",
+      "labelled_column": "Column5",
+      "position_zero_based": 4
+    },
+    "Prague": {
+      "source_column": "zgoda",
+      "labelled_column": "Wyrażam zgodę na udział w badaniu, a także na przetwarzanie oraz przechowywanie moich danych na potrzeby publikacji naukowych. (...)",
+      "position_zero_based": 4
+    }
+  },
+  "age_band": {
+    "GZM": {
+      "source_column": "W jakim jesteś wieku?",
+      "labelled_column": "W jakim jesteś wieku?",
+      "position_zero_based": 5
+    },
+    "Istanbul": {
+      "source_column": "age",
+      "labelled_column": "W jakim jesteś wieku?",
+      "position_zero_based": 6
+    },
+    "Montreal": {
+      "source_column": "age",
+      "labelled_column": "W jakim jesteś wieku?",
+      "position_zero_based": 6
+    },
+    "New York": {
+      "source_column": "age",
+      "labelled_column": "W jakim jesteś wieku?",
+      "position_zero_based": 6
+    },
+    "Beijing": {
+      "source_column": "age",
+      "labelled_column": "Column7",
+      "position_zero_based": 6
+    },
+    "Prague": {
+      "source_column": "age",
+      "labelled_column": "W jakim jesteś wieku?",
+      "position_zero_based": 6
+    }
+  },
+  "age_years": {
+    "GZM": {
+      "source_column": "Ile dokładnie masz lat?",
+      "labelled_column": "Ile dokładnie masz lat?",
+      "position_zero_based": 6
+    },
+    "Istanbul": {
+      "source_column": "year",
+      "labelled_column": "Ile dokładnie masz lat?",
+      "position_zero_based": 7
+    },
+    "Montreal": {
+      "source_column": "year",
+      "labelled_column": "Ile dokładnie masz lat?",
+      "position_zero_based": 7
+    },
+    "New York": {
+      "source_column": "year",
+      "labelled_column": "Ile dokładnie masz lat?",
+      "position_zero_based": 7
+    },
+    "Beijing": {
+      "source_column": "year",
+      "labelled_column": "Column8",
+      "position_zero_based": 7
+    },
+    "Prague": {
+      "source_column": "year",
+      "labelled_column": "Ile dokładnie masz lat?",
+      "position_zero_based": 7
+    }
+  },
+  "education": {
+    "GZM": {
+      "source_column": "Jakie jest Twoje obecne wykształcenie (ostatnio ukończona szkoła)?",
+      "labelled_column": "Jakie jest Twoje obecne wykształcenie (ostatnio ukończona szkoła)?",
+      "position_zero_based": 21
+    },
+    "Istanbul": {
+      "source_column": "wyksztalcenie",
+      "labelled_column": "Jakie jest Twoje obecne wykształcenie (ostatnio ukończona szkoła)?",
+      "position_zero_based": 14
+    },
+    "Montreal": {
+      "source_column": "wyksztalcenie",
+      "labelled_column": "Jakie jest Twoje obecne wykształcenie (ostatnio ukończona szkoła)?",
+      "position_zero_based": 14
+    },
+    "New York": {
+      "source_column": "wyksztalcenie",
+      "labelled_column": "Jakie jest Twoje obecne wykształcenie (ostatnio ukończona szkoła)?",
+      "position_zero_based": 14
+    },
+    "Beijing": {
+      "source_column": "wyksztalcenie",
+      "labelled_column": "Column15",
+      "position_zero_based": 14
+    },
+    "Prague": {
+      "source_column": "wyksztalcenie",
+      "labelled_column": "Jakie jest Twoje obecne wykształcenie (ostatnio ukończona szkoła)?",
+      "position_zero_based": 14
+    }
+  },
+  "emp1": {
+    "GZM": {
+      "source_column": "Jaki jest Twój aktualny status zawodowy? - osoba bezrobotna",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba bezrobotna",
+      "position_zero_based": 23
+    },
+    "Istanbul": {
+      "source_column": "status_zawodowy_r1",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba bezrobotna",
+      "position_zero_based": 16
+    },
+    "Montreal": {
+      "source_column": "status_zawodowy_r1",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba bezrobotna",
+      "position_zero_based": 16
+    },
+    "New York": {
+      "source_column": "status_zawodowy_r1",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba bezrobotna",
+      "position_zero_based": 16
+    },
+    "Beijing": {
+      "source_column": "status_zawodowy_r1",
+      "labelled_column": "Column17",
+      "position_zero_based": 16
+    },
+    "Prague": {
+      "source_column": "status_zawodowy_r1",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba bezrobotna",
+      "position_zero_based": 16
+    }
+  },
+  "emp2": {
+    "GZM": {
+      "source_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze prywatnym",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze prywatnym",
+      "position_zero_based": 24
+    },
+    "Istanbul": {
+      "source_column": "status_zawodowy_r2",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze prywatnym",
+      "position_zero_based": 17
+    },
+    "Montreal": {
+      "source_column": "status_zawodowy_r2",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze prywatnym",
+      "position_zero_based": 17
+    },
+    "New York": {
+      "source_column": "status_zawodowy_r2",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze prywatnym",
+      "position_zero_based": 17
+    },
+    "Beijing": {
+      "source_column": "status_zawodowy_r2",
+      "labelled_column": "Column18",
+      "position_zero_based": 17
+    },
+    "Prague": {
+      "source_column": "status_zawodowy_r2",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze prywatnym",
+      "position_zero_based": 17
+    }
+  },
+  "emp3": {
+    "GZM": {
+      "source_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze publicznym",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze publicznym",
+      "position_zero_based": 25
+    },
+    "Istanbul": {
+      "source_column": "status_zawodowy_r3",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze publicznym",
+      "position_zero_based": 18
+    },
+    "Montreal": {
+      "source_column": "status_zawodowy_r3",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze publicznym",
+      "position_zero_based": 18
+    },
+    "New York": {
+      "source_column": "status_zawodowy_r3",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze publicznym",
+      "position_zero_based": 18
+    },
+    "Beijing": {
+      "source_column": "status_zawodowy_r3",
+      "labelled_column": "Column19",
+      "position_zero_based": 18
+    },
+    "Prague": {
+      "source_column": "status_zawodowy_r3",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze publicznym",
+      "position_zero_based": 18
+    }
+  },
+  "emp4": {
+    "GZM": {
+      "source_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze pozarządowym/społecznym",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze pozarządowym/społecznym",
+      "position_zero_based": 26
+    },
+    "Istanbul": {
+      "source_column": "status_zawodowy_r4",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze pozarządowym/społecznym",
+      "position_zero_based": 19
+    },
+    "Montreal": {
+      "source_column": "status_zawodowy_r4",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze pozarządowym/społecznym",
+      "position_zero_based": 19
+    },
+    "New York": {
+      "source_column": "status_zawodowy_r4",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze pozarządowym/społecznym",
+      "position_zero_based": 19
+    },
+    "Beijing": {
+      "source_column": "status_zawodowy_r4",
+      "labelled_column": "Column20",
+      "position_zero_based": 19
+    },
+    "Prague": {
+      "source_column": "status_zawodowy_r4",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba pracująca w sektorze pozarządowym/społecznym",
+      "position_zero_based": 19
+    }
+  },
+  "emp5": {
+    "GZM": {
+      "source_column": "Jaki jest Twój aktualny status zawodowy? - osoba samozatrudniona",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba samozatrudniona",
+      "position_zero_based": 27
+    },
+    "Istanbul": {
+      "source_column": "status_zawodowy_r5",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba samozatrudniona",
+      "position_zero_based": 20
+    },
+    "Montreal": {
+      "source_column": "status_zawodowy_r5",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba samozatrudniona",
+      "position_zero_based": 20
+    },
+    "New York": {
+      "source_column": "status_zawodowy_r5",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba samozatrudniona",
+      "position_zero_based": 20
+    },
+    "Beijing": {
+      "source_column": "status_zawodowy_r5",
+      "labelled_column": "Column21",
+      "position_zero_based": 20
+    },
+    "Prague": {
+      "source_column": "status_zawodowy_r5",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba samozatrudniona",
+      "position_zero_based": 20
+    }
+  },
+  "emp6": {
+    "GZM": {
+      "source_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. uczeń/student)",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. uczeń/student)",
+      "position_zero_based": 28
+    },
+    "Istanbul": {
+      "source_column": "status_zawodowy_r6",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. uczeń/student)",
+      "position_zero_based": 21
+    },
+    "Montreal": {
+      "source_column": "status_zawodowy_r6",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. uczeń/student)",
+      "position_zero_based": 21
+    },
+    "New York": {
+      "source_column": "status_zawodowy_r6",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. uczeń/student)",
+      "position_zero_based": 21
+    },
+    "Beijing": {
+      "source_column": "status_zawodowy_r6",
+      "labelled_column": "Column22",
+      "position_zero_based": 21
+    },
+    "Prague": {
+      "source_column": "status_zawodowy_r6",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. uczeń/student)",
+      "position_zero_based": 21
+    }
+  },
+  "emp7": {
+    "GZM": {
+      "source_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. emeryt/rencista)",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. emeryt/rencista)",
+      "position_zero_based": 29
+    },
+    "Istanbul": {
+      "source_column": "status_zawodowy_r7",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. emeryt/rencista)",
+      "position_zero_based": 22
+    },
+    "Montreal": {
+      "source_column": "status_zawodowy_r7",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. emeryt/rencista)",
+      "position_zero_based": 22
+    },
+    "New York": {
+      "source_column": "status_zawodowy_r7",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. emeryt/rencista)",
+      "position_zero_based": 22
+    },
+    "Beijing": {
+      "source_column": "status_zawodowy_r7",
+      "labelled_column": "Column23",
+      "position_zero_based": 22
+    },
+    "Prague": {
+      "source_column": "status_zawodowy_r7",
+      "labelled_column": "Jaki jest Twój aktualny status zawodowy? - osoba nieczynna zawodowo (np. emeryt/rencista)",
+      "position_zero_based": 22
+    }
+  },
+  "p1": {
+    "GZM": {
+      "source_column": "Potrafię skutecznie radzić sobie z trudnymi sytuacjami.",
+      "labelled_column": "Potrafię skutecznie radzić sobie z trudnymi sytuacjami.",
+      "position_zero_based": 30
+    },
+    "Istanbul": {
+      "source_column": "p1",
+      "labelled_column": "Potrafię skutecznie radzić sobie z trudnymi sytuacjami.",
+      "position_zero_based": 23
+    },
+    "Montreal": {
+      "source_column": "p1",
+      "labelled_column": "Potrafię skutecznie radzić sobie z trudnymi sytuacjami.",
+      "position_zero_based": 23
+    },
+    "New York": {
+      "source_column": "p1",
+      "labelled_column": "Potrafię skutecznie radzić sobie z trudnymi sytuacjami.",
+      "position_zero_based": 23
+    },
+    "Beijing": {
+      "source_column": "p1",
+      "labelled_column": "Column24",
+      "position_zero_based": 23
+    },
+    "Prague": {
+      "source_column": "p1",
+      "labelled_column": "Potrafię skutecznie radzić sobie z trudnymi sytuacjami.",
+      "position_zero_based": 23
+    }
+  },
+  "p2": {
+    "GZM": {
+      "source_column": "Po doświadczeniu stresu lub niepowodzenia szybko odzyskuję równowagę.",
+      "labelled_column": "Po doświadczeniu stresu lub niepowodzenia szybko odzyskuję równowagę.",
+      "position_zero_based": 31
+    },
+    "Istanbul": {
+      "source_column": "p2",
+      "labelled_column": "Po doświadczeniu stresu lub niepowodzenia szybko odzyskuję równowagę.",
+      "position_zero_based": 24
+    },
+    "Montreal": {
+      "source_column": "p2",
+      "labelled_column": "Po doświadczeniu stresu lub niepowodzenia szybko odzyskuję równowagę.",
+      "position_zero_based": 24
+    },
+    "New York": {
+      "source_column": "p2",
+      "labelled_column": "Po doświadczeniu stresu lub niepowodzenia szybko odzyskuję równowagę.",
+      "position_zero_based": 24
+    },
+    "Beijing": {
+      "source_column": "p2",
+      "labelled_column": "Column25",
+      "position_zero_based": 24
+    },
+    "Prague": {
+      "source_column": "p2",
+      "labelled_column": "Po doświadczeniu stresu lub niepowodzenia szybko odzyskuję równowagę.",
+      "position_zero_based": 24
+    }
+  },
+  "p3": {
+    "GZM": {
+      "source_column": "Sprawnie dostosowuję się do zmian i nowych okoliczności.",
+      "labelled_column": "Sprawnie dostosowuję się do zmian i nowych okoliczności.",
+      "position_zero_based": 32
+    },
+    "Istanbul": {
+      "source_column": "p3",
+      "labelled_column": "Sprawnie dostosowuję się do zmian i nowych okoliczności.",
+      "position_zero_based": 25
+    },
+    "Montreal": {
+      "source_column": "p3",
+      "labelled_column": "Sprawnie dostosowuję się do zmian i nowych okoliczności.",
+      "position_zero_based": 25
+    },
+    "New York": {
+      "source_column": "p3",
+      "labelled_column": "Sprawnie dostosowuję się do zmian i nowych okoliczności.",
+      "position_zero_based": 25
+    },
+    "Beijing": {
+      "source_column": "p3",
+      "labelled_column": "Column26",
+      "position_zero_based": 25
+    },
+    "Prague": {
+      "source_column": "p3",
+      "labelled_column": "Sprawnie dostosowuję się do zmian i nowych okoliczności.",
+      "position_zero_based": 25
+    }
+  },
+  "p4": {
+    "GZM": {
+      "source_column": "Mam przekonanie o własnej skuteczności w obliczu przyszłych wyzwań.",
+      "labelled_column": "Mam przekonanie o własnej skuteczności w obliczu przyszłych wyzwań.",
+      "position_zero_based": 33
+    },
+    "Istanbul": {
+      "source_column": "p4",
+      "labelled_column": "Mam przekonanie o własnej skuteczności w obliczu przyszłych wyzwań.",
+      "position_zero_based": 26
+    },
+    "Montreal": {
+      "source_column": "p4",
+      "labelled_column": "Mam przekonanie o własnej skuteczności w obliczu przyszłych wyzwań.",
+      "position_zero_based": 26
+    },
+    "New York": {
+      "source_column": "p4",
+      "labelled_column": "Mam przekonanie o własnej skuteczności w obliczu przyszłych wyzwań.",
+      "position_zero_based": 26
+    },
+    "Beijing": {
+      "source_column": "p4",
+      "labelled_column": "Column27",
+      "position_zero_based": 26
+    },
+    "Prague": {
+      "source_column": "p4",
+      "labelled_column": "Mam przekonanie o własnej skuteczności w obliczu przyszłych wyzwań.",
+      "position_zero_based": 26
+    }
+  },
+  "p5": {
+    "GZM": {
+      "source_column": "W sytuacjach stresowych potrafię świadomie regulować swoje emocje (np. uspokoić się, zmienić sposób myślenia).",
+      "labelled_column": "W sytuacjach stresowych potrafię świadomie regulować swoje emocje (np. uspokoić się, zmienić sposób myślenia).",
+      "position_zero_based": 34
+    },
+    "Istanbul": {
+      "source_column": "p5",
+      "labelled_column": "W sytuacjach stresowych potrafię świadomie regulować swoje emocje (np. uspokoić się, zmienić sposób myślenia).",
+      "position_zero_based": 27
+    },
+    "Montreal": {
+      "source_column": "p5",
+      "labelled_column": "W sytuacjach stresowych potrafię świadomie regulować swoje emocje (np. uspokoić się, zmienić sposób myślenia).",
+      "position_zero_based": 27
+    },
+    "New York": {
+      "source_column": "p5",
+      "labelled_column": "W sytuacjach stresowych potrafię świadomie regulować swoje emocje (np. uspokoić się, zmienić sposób myślenia).",
+      "position_zero_based": 27
+    },
+    "Beijing": {
+      "source_column": "p5",
+      "labelled_column": "Column28",
+      "position_zero_based": 27
+    },
+    "Prague": {
+      "source_column": "p5",
+      "labelled_column": "W sytuacjach stresowych potrafię świadomie regulować swoje emocje (np. uspokoić się, zmienić sposób myślenia).",
+      "position_zero_based": 27
+    }
+  },
+  "p6": {
+    "GZM": {
+      "source_column": "Potrafię zmieniać sposób myślenia o trudnych sytuacjach, aby lepiej sobie z nimi radzić.",
+      "labelled_column": "Potrafię zmieniać sposób myślenia o trudnych sytuacjach, aby lepiej sobie z nimi radzić.",
+      "position_zero_based": 35
+    },
+    "Istanbul": {
+      "source_column": "p6",
+      "labelled_column": "Potrafię zmieniać sposób myślenia o trudnych sytuacjach, aby lepiej sobie z nimi radzić.",
+      "position_zero_based": 28
+    },
+    "Montreal": {
+      "source_column": "p6",
+      "labelled_column": "Potrafię zmieniać sposób myślenia o trudnych sytuacjach, aby lepiej sobie z nimi radzić.",
+      "position_zero_based": 28
+    },
+    "New York": {
+      "source_column": "p6",
+      "labelled_column": "Potrafię zmieniać sposób myślenia o trudnych sytuacjach, aby lepiej sobie z nimi radzić.",
+      "position_zero_based": 28
+    },
+    "Beijing": {
+      "source_column": "p6",
+      "labelled_column": "Column29",
+      "position_zero_based": 28
+    },
+    "Prague": {
+      "source_column": "p6",
+      "labelled_column": "Potrafię zmieniać sposób myślenia o trudnych sytuacjach, aby lepiej sobie z nimi radzić.",
+      "position_zero_based": 28
+    }
+  },
+  "p7": {
+    "GZM": {
+      "source_column": "Moje strategie radzenia sobie z trudnościami wpływają na mój dobrostan psychiczny.",
+      "labelled_column": "Moje strategie radzenia sobie z trudnościami wpływają na mój dobrostan psychiczny.",
+      "position_zero_based": 36
+    },
+    "Istanbul": {
+      "source_column": "p7",
+      "labelled_column": "Moje strategie radzenia sobie z trudnościami wpływają na mój dobrostan psychiczny.",
+      "position_zero_based": 29
+    },
+    "Montreal": {
+      "source_column": "p7",
+      "labelled_column": "Moje strategie radzenia sobie z trudnościami wpływają na mój dobrostan psychiczny.",
+      "position_zero_based": 29
+    },
+    "New York": {
+      "source_column": "p7",
+      "labelled_column": "Moje strategie radzenia sobie z trudnościami wpływają na mój dobrostan psychiczny.",
+      "position_zero_based": 29
+    },
+    "Beijing": {
+      "source_column": "p7",
+      "labelled_column": "Column30",
+      "position_zero_based": 29
+    },
+    "Prague": {
+      "source_column": "p7",
+      "labelled_column": "Moje strategie radzenia sobie z trudnościami wpływają na mój dobrostan psychiczny.",
+      "position_zero_based": 29
+    }
+  },
+  "p8": {
+    "GZM": {
+      "source_column": "Zdolność adaptacji do zmian wpływa na moje zadowolenie z życia.",
+      "labelled_column": "Zdolność adaptacji do zmian wpływa na moje zadowolenie z życia.",
+      "position_zero_based": 37
+    },
+    "Istanbul": {
+      "source_column": "p8",
+      "labelled_column": "Zdolność adaptacji do zmian wpływa na moje zadowolenie z życia.",
+      "position_zero_based": 30
+    },
+    "Montreal": {
+      "source_column": "p8",
+      "labelled_column": "Zdolność adaptacji do zmian wpływa na moje zadowolenie z życia.",
+      "position_zero_based": 30
+    },
+    "New York": {
+      "source_column": "p8",
+      "labelled_column": "Zdolność adaptacji do zmian wpływa na moje zadowolenie z życia.",
+      "position_zero_based": 30
+    },
+    "Beijing": {
+      "source_column": "p8",
+      "labelled_column": "Column31",
+      "position_zero_based": 30
+    },
+    "Prague": {
+      "source_column": "p8",
+      "labelled_column": "Zdolność adaptacji do zmian wpływa na moje zadowolenie z życia.",
+      "position_zero_based": 30
+    }
+  },
+  "p9": {
+    "GZM": {
+      "source_column": "Środowisko edukacyjne, w którym funkcjonuję, sprzyja mojemu dobrostanowi psychicznemu i poczuciu bezpieczeństwa oraz rozwojowi moich kompetencji radzenia sobie ze stresem i zmianą.",
+      "labelled_column": "Środowisko edukacyjne, w którym funkcjonuję, sprzyja mojemu dobrostanowi psychicznemu i poczuciu bezpieczeństwa oraz rozwojowi moich kompetencji radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 38
+    },
+    "Istanbul": {
+      "source_column": "p9",
+      "labelled_column": "Środowisko edukacyjne, w którym funkcjonuję, sprzyja mojemu dobrostanowi psychicznemu i poczuciu bezpieczeństwa oraz rozwojowi moich kompetencji radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 31
+    },
+    "Montreal": {
+      "source_column": "p9",
+      "labelled_column": "Środowisko edukacyjne, w którym funkcjonuję, sprzyja mojemu dobrostanowi psychicznemu i poczuciu bezpieczeństwa oraz rozwojowi moich kompetencji radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 31
+    },
+    "New York": {
+      "source_column": "p9",
+      "labelled_column": "Środowisko edukacyjne, w którym funkcjonuję, sprzyja mojemu dobrostanowi psychicznemu i poczuciu bezpieczeństwa oraz rozwojowi moich kompetencji radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 31
+    },
+    "Beijing": {
+      "source_column": "p9",
+      "labelled_column": "Column32",
+      "position_zero_based": 31
+    },
+    "Prague": {
+      "source_column": "p9",
+      "labelled_column": "Środowisko edukacyjne, w którym funkcjonuję, sprzyja mojemu dobrostanowi psychicznemu i poczuciu bezpieczeństwa oraz rozwojowi moich kompetencji radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 31
+    }
+  },
+  "p10": {
+    "GZM": {
+      "source_column": "Mam dostęp do adekwatnego wsparcia (np. nauczycieli, specjalistów), gdy go potrzebuję.",
+      "labelled_column": "Mam dostęp do adekwatnego wsparcia (np. nauczycieli, specjalistów), gdy go potrzebuję.",
+      "position_zero_based": 39
+    },
+    "Istanbul": {
+      "source_column": "p10",
+      "labelled_column": "Mam dostęp do adekwatnego wsparcia (np. nauczycieli, specjalistów), gdy go potrzebuję.",
+      "position_zero_based": 32
+    },
+    "Montreal": {
+      "source_column": "p10",
+      "labelled_column": "Mam dostęp do adekwatnego wsparcia (np. nauczycieli, specjalistów), gdy go potrzebuję.",
+      "position_zero_based": 32
+    },
+    "New York": {
+      "source_column": "p10",
+      "labelled_column": "Mam dostęp do adekwatnego wsparcia (np. nauczycieli, specjalistów), gdy go potrzebuję.",
+      "position_zero_based": 32
+    },
+    "Beijing": {
+      "source_column": "p10",
+      "labelled_column": "Column33",
+      "position_zero_based": 32
+    },
+    "Prague": {
+      "source_column": "p10",
+      "labelled_column": "Mam dostęp do adekwatnego wsparcia (np. nauczycieli, specjalistów), gdy go potrzebuję.",
+      "position_zero_based": 32
+    }
+  },
+  "p11": {
+    "GZM": {
+      "source_column": "Edukacja rozwija moje kompetencje radzenia sobie ze stresem i zmianą.",
+      "labelled_column": "Edukacja rozwija moje kompetencje radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 40
+    },
+    "Istanbul": {
+      "source_column": "p11",
+      "labelled_column": "Edukacja rozwija moje kompetencje radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 33
+    },
+    "Montreal": {
+      "source_column": "p11",
+      "labelled_column": "Edukacja rozwija moje kompetencje radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 33
+    },
+    "New York": {
+      "source_column": "p11",
+      "labelled_column": "Edukacja rozwija moje kompetencje radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 33
+    },
+    "Beijing": {
+      "source_column": "p11",
+      "labelled_column": "Column34",
+      "position_zero_based": 33
+    },
+    "Prague": {
+      "source_column": "p11",
+      "labelled_column": "Edukacja rozwija moje kompetencje radzenia sobie ze stresem i zmianą.",
+      "position_zero_based": 33
+    }
+  },
+  "p12": {
+    "GZM": {
+      "source_column": "Programy rozwijające rezyliencję i dobrostan powinny być integralną częścią edukacji.",
+      "labelled_column": "Programy rozwijające rezyliencję i dobrostan powinny być integralną częścią edukacji.",
+      "position_zero_based": 41
+    },
+    "Istanbul": {
+      "source_column": "p12",
+      "labelled_column": "Programy rozwijające rezyliencję i dobrostan powinny być integralną częścią edukacji.",
+      "position_zero_based": 34
+    },
+    "Montreal": {
+      "source_column": "p12",
+      "labelled_column": "Programy rozwijające rezyliencję i dobrostan powinny być integralną częścią edukacji.",
+      "position_zero_based": 34
+    },
+    "New York": {
+      "source_column": "p12",
+      "labelled_column": "Programy rozwijające rezyliencję i dobrostan powinny być integralną częścią edukacji.",
+      "position_zero_based": 34
+    },
+    "Beijing": {
+      "source_column": "p12",
+      "labelled_column": "Column35",
+      "position_zero_based": 34
+    },
+    "Prague": {
+      "source_column": "p12",
+      "labelled_column": "Programy rozwijające rezyliencję i dobrostan powinny być integralną częścią edukacji.",
+      "position_zero_based": 34
+    }
+  },
+  "p13": {
+    "GZM": {
+      "source_column": "Potrafię uczyć się nowych rzeczy w odpowiedzi na zmiany oraz postrzegam zmiany jako szansę, a nie zagrożenie.",
+      "labelled_column": "Potrafię uczyć się nowych rzeczy w odpowiedzi na zmiany oraz postrzegam zmiany jako szansę, a nie zagrożenie.",
+      "position_zero_based": 42
+    },
+    "Istanbul": {
+      "source_column": "p13",
+      "labelled_column": "Potrafię uczyć się nowych rzeczy w odpowiedzi na zmiany oraz postrzegam zmiany jako szansę, a nie zagrożenie.",
+      "position_zero_based": 35
+    },
+    "Montreal": {
+      "source_column": "p13",
+      "labelled_column": "Potrafię uczyć się nowych rzeczy w odpowiedzi na zmiany oraz postrzegam zmiany jako szansę, a nie zagrożenie.",
+      "position_zero_based": 35
+    },
+    "New York": {
+      "source_column": "p13",
+      "labelled_column": "Potrafię uczyć się nowych rzeczy w odpowiedzi na zmiany oraz postrzegam zmiany jako szansę, a nie zagrożenie.",
+      "position_zero_based": 35
+    },
+    "Beijing": {
+      "source_column": "p13",
+      "labelled_column": "Column36",
+      "position_zero_based": 35
+    },
+    "Prague": {
+      "source_column": "p13",
+      "labelled_column": "Potrafię uczyć się nowych rzeczy w odpowiedzi na zmiany oraz postrzegam zmiany jako szansę, a nie zagrożenie.",
+      "position_zero_based": 35
+    }
+  },
+  "p15": {
+    "GZM": {
+      "source_column": "Jak często korzystasz z narzędzi opartych na AI?",
+      "labelled_column": "Jak często korzystasz z narzędzi opartych na AI?",
+      "position_zero_based": 43
+    },
+    "Istanbul": {
+      "source_column": "p15",
+      "labelled_column": "Jak często korzystasz z narzędzi opartych na AI?",
+      "position_zero_based": 36
+    },
+    "Montreal": {
+      "source_column": "p15",
+      "labelled_column": "Jak często korzystasz z narzędzi opartych na AI?",
+      "position_zero_based": 36
+    },
+    "New York": {
+      "source_column": "p15",
+      "labelled_column": "Jak często korzystasz z narzędzi opartych na AI?",
+      "position_zero_based": 36
+    },
+    "Beijing": {
+      "source_column": "p15",
+      "labelled_column": "Column37",
+      "position_zero_based": 36
+    },
+    "Prague": {
+      "source_column": "p15",
+      "labelled_column": "Jak często korzystasz z narzędzi opartych na AI?",
+      "position_zero_based": 36
+    }
+  },
+  "p17": {
+    "GZM": {
+      "source_column": "Czuję się pewnie, korzystając samodzielnie z narzędzi AI.",
+      "labelled_column": "Czuję się pewnie, korzystając samodzielnie z narzędzi AI.",
+      "position_zero_based": 54
+    },
+    "Istanbul": {
+      "source_column": "p17",
+      "labelled_column": "Czuję się pewnie, korzystając samodzielnie z narzędzi AI.",
+      "position_zero_based": 47
+    },
+    "Montreal": {
+      "source_column": "p17",
+      "labelled_column": "Czuję się pewnie, korzystając samodzielnie z narzędzi AI.",
+      "position_zero_based": 47
+    },
+    "New York": {
+      "source_column": "p17",
+      "labelled_column": "Czuję się pewnie, korzystając samodzielnie z narzędzi AI.",
+      "position_zero_based": 47
+    },
+    "Beijing": {
+      "source_column": "p17",
+      "labelled_column": "Column48",
+      "position_zero_based": 47
+    },
+    "Prague": {
+      "source_column": "p17",
+      "labelled_column": "Czuję się pewnie, korzystając samodzielnie z narzędzi AI.",
+      "position_zero_based": 47
+    }
+  },
+  "p18": {
+    "GZM": {
+      "source_column": "Uważam, że w najbliższych latach będę potrzebować AI w pracy, nauce lub codziennym życiu.",
+      "labelled_column": "Uważam, że w najbliższych latach będę potrzebować AI w pracy, nauce lub codziennym życiu.",
+      "position_zero_based": 55
+    },
+    "Istanbul": {
+      "source_column": "p18",
+      "labelled_column": "Uważam, że w najbliższych latach będę potrzebować AI w pracy, nauce lub codziennym życiu.",
+      "position_zero_based": 48
+    },
+    "Montreal": {
+      "source_column": "p18",
+      "labelled_column": "Uważam, że w najbliższych latach będę potrzebować AI w pracy, nauce lub codziennym życiu.",
+      "position_zero_based": 48
+    },
+    "New York": {
+      "source_column": "p18",
+      "labelled_column": "Uważam, że w najbliższych latach będę potrzebować AI w pracy, nauce lub codziennym życiu.",
+      "position_zero_based": 48
+    },
+    "Beijing": {
+      "source_column": "p18",
+      "labelled_column": "Column49",
+      "position_zero_based": 48
+    },
+    "Prague": {
+      "source_column": "p18",
+      "labelled_column": "Uważam, że w najbliższych latach będę potrzebować AI w pracy, nauce lub codziennym życiu.",
+      "position_zero_based": 48
+    }
+  },
+  "p19": {
+    "GZM": {
+      "source_column": "Ogólnie rzecz biorąc, AI przyniesie więcej korzyści niż ryzyk.",
+      "labelled_column": "Ogólnie rzecz biorąc, AI przyniesie więcej korzyści niż ryzyk.",
+      "position_zero_based": 56
+    },
+    "Istanbul": {
+      "source_column": "p19",
+      "labelled_column": "Ogólnie rzecz biorąc, AI przyniesie więcej korzyści niż ryzyk.",
+      "position_zero_based": 49
+    },
+    "Montreal": {
+      "source_column": "p19",
+      "labelled_column": "Ogólnie rzecz biorąc, AI przyniesie więcej korzyści niż ryzyk.",
+      "position_zero_based": 49
+    },
+    "New York": {
+      "source_column": "p19",
+      "labelled_column": "Ogólnie rzecz biorąc, AI przyniesie więcej korzyści niż ryzyk.",
+      "position_zero_based": 49
+    },
+    "Beijing": {
+      "source_column": "p19",
+      "labelled_column": "Column50",
+      "position_zero_based": 49
+    },
+    "Prague": {
+      "source_column": "p19",
+      "labelled_column": "Ogólnie rzecz biorąc, AI przyniesie więcej korzyści niż ryzyk.",
+      "position_zero_based": 49
+    }
+  },
+  "p20": {
+    "GZM": {
+      "source_column": "Ufam AI na tyle, by korzystać z niej przy prostych, codziennych zadaniach.",
+      "labelled_column": "Ufam AI na tyle, by korzystać z niej przy prostych, codziennych zadaniach.",
+      "position_zero_based": 57
+    },
+    "Istanbul": {
+      "source_column": "p20",
+      "labelled_column": "Ufam AI na tyle, by korzystać z niej przy prostych, codziennych zadaniach.",
+      "position_zero_based": 50
+    },
+    "Montreal": {
+      "source_column": "p20",
+      "labelled_column": "Ufam AI na tyle, by korzystać z niej przy prostych, codziennych zadaniach.",
+      "position_zero_based": 50
+    },
+    "New York": {
+      "source_column": "p20",
+      "labelled_column": "Ufam AI na tyle, by korzystać z niej przy prostych, codziennych zadaniach.",
+      "position_zero_based": 50
+    },
+    "Beijing": {
+      "source_column": "p20",
+      "labelled_column": "Column51",
+      "position_zero_based": 50
+    },
+    "Prague": {
+      "source_column": "p20",
+      "labelled_column": "Ufam AI na tyle, by korzystać z niej przy prostych, codziennych zadaniach.",
+      "position_zero_based": 50
+    }
+  },
+  "p21": {
+    "GZM": {
+      "source_column": "Obawiam się, że AI może naruszać prywatność, bezpieczeństwo lub sprawiedliwe traktowanie ludzi.",
+      "labelled_column": "Obawiam się, że AI może naruszać prywatność, bezpieczeństwo lub sprawiedliwe traktowanie ludzi.",
+      "position_zero_based": 58
+    },
+    "Istanbul": {
+      "source_column": "p21",
+      "labelled_column": "Obawiam się, że AI może naruszać prywatność, bezpieczeństwo lub sprawiedliwe traktowanie ludzi.",
+      "position_zero_based": 51
+    },
+    "Montreal": {
+      "source_column": "p21",
+      "labelled_column": "Obawiam się, że AI może naruszać prywatność, bezpieczeństwo lub sprawiedliwe traktowanie ludzi.",
+      "position_zero_based": 51
+    },
+    "New York": {
+      "source_column": "p21",
+      "labelled_column": "Obawiam się, że AI może naruszać prywatność, bezpieczeństwo lub sprawiedliwe traktowanie ludzi.",
+      "position_zero_based": 51
+    },
+    "Beijing": {
+      "source_column": "p21",
+      "labelled_column": "Column52",
+      "position_zero_based": 51
+    },
+    "Prague": {
+      "source_column": "p21",
+      "labelled_column": "Obawiam się, że AI może naruszać prywatność, bezpieczeństwo lub sprawiedliwe traktowanie ludzi.",
+      "position_zero_based": 51
+    }
+  },
+  "p23": {
+    "GZM": {
+      "source_column": "Co jest dziś największą barierą dla szerszego wykorzystania AI?",
+      "labelled_column": "Co jest dziś największą barierą dla szerszego wykorzystania AI?",
+      "position_zero_based": 72
+    },
+    "Istanbul": {
+      "source_column": "p23",
+      "labelled_column": "Co jest dziś największą barierą dla szerszego wykorzystania AI?",
+      "position_zero_based": 65
+    },
+    "Montreal": {
+      "source_column": "p23",
+      "labelled_column": "Co jest dziś największą barierą dla szerszego wykorzystania AI?",
+      "position_zero_based": 65
+    },
+    "New York": {
+      "source_column": "p23",
+      "labelled_column": "Co jest dziś największą barierą dla szerszego wykorzystania AI?",
+      "position_zero_based": 65
+    },
+    "Beijing": {
+      "source_column": "p23",
+      "labelled_column": "Column66",
+      "position_zero_based": 65
+    },
+    "Prague": {
+      "source_column": "p23",
+      "labelled_column": "Co jest dziś największą barierą dla szerszego wykorzystania AI?",
+      "position_zero_based": 65
+    }
+  }
+}

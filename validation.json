@@ -1,0 +1,16 @@
+{
+  "aggregate_replot": "Four PNG/PDF pairs generated successfully without private data; all visually inspected.",
+  "default_model_seed_regression_check": "A complete nested RF outer fold holding out Beijing was rerun using the packaged analyze.py. All raw and temperature-scaled test probabilities exactly equal the original outputs (maximum absolute difference0).",
+  "split_seed": 20261014,
+  "model_seed": 20261014,
+  "new_method_source": "Packaged wrappers preserve the previously executed seed and matched-size procedures while using portable relative paths.",
+  "original_source_snapshot": "source_history/analyze_original.py",
+  "original_source_sha256": "631a13e8abf33d42b7004aa039ea3c200d323e1d08287320a7e5802930a539f6",
+  "package_exclusions": [
+    "record-level data",
+    "record-level predictions",
+    "respondent split indices",
+    "provider letters",
+    "deployed-language files not available"
+  ]
+}

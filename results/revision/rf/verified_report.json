@@ -1,0 +1,320 @@
+{
+  "protocol": "Ten prespecified seeds 20261014-20261023; original fixed outer LOSO splits and inner site-held-out splits; min_samples_leaf retuned and temperature recalibrated independently for every seed. No seed selection or averaging of prediction probabilities. All training/reprocessing otherwise unchanged. Only model pseudorandomness varied, not sampling uncertainty. Two RF sensitivities use original seed 20261014.",
+  "baseline_rf_loso": {
+    "n": 3528.0,
+    "log_loss": 2.1686912265878706,
+    "brier": 0.8734885580070438,
+    "accuracy": 0.220027195027195,
+    "macro_f1": 0.0934748535770312,
+    "macro_recall": 0.1478353871446393,
+    "ece": 0.0406675323492789,
+    "seed": 20261014,
+    "prior_log_loss": 2.2521609792308337,
+    "gain_over_prior": 0.08346975264296308,
+    "lr_minus_rf_log_loss": 0.007858696296652923
+  },
+  "seed_count": 10,
+  "seed_statistics": {
+    "log_loss": {
+      "mean": 2.168496069989383,
+      "sd": 0.0008200867948105228,
+      "min": 2.166997970421205,
+      "max": 2.1695937442977216
+    },
+    "accuracy": {
+      "mean": 0.2207644522144522,
+      "sd": 0.0011841576822106369,
+      "min": 0.2193846153846153,
+      "max": 0.2226056721056721
+    },
+    "macro_f1": {
+      "mean": 0.09333358798194777,
+      "sd": 0.0011794982754519776,
+      "min": 0.09158303905584,
+      "max": 0.096076334764438
+    },
+    "gain_over_prior": {
+      "mean": 0.08366490924145084,
+      "sd": 0.0008200867948105228,
+      "min": 0.08256723493311213,
+      "max": 0.08516300880962868
+    },
+    "lr_minus_rf_log_loss": {
+      "mean": 0.00805385289514069,
+      "sd": 0.0008200867948105228,
+      "min": 0.006956178586801975,
+      "max": 0.009551952463318525
+    }
+  },
+  "parameters_by_site_and_seed": {
+    "Beijing": {
+      "20261014": 30,
+      "20261015": 30,
+      "20261016": 30,
+      "20261017": 30,
+      "20261018": 30,
+      "20261019": 30,
+      "20261020": 30,
+      "20261021": 30,
+      "20261022": 30,
+      "20261023": 30
+    },
+    "GZM": {
+      "20261014": 30,
+      "20261015": 30,
+      "20261016": 30,
+      "20261017": 30,
+      "20261018": 30,
+      "20261019": 30,
+      "20261020": 30,
+      "20261021": 30,
+      "20261022": 30,
+      "20261023": 30
+    },
+    "Istanbul": {
+      "20261014": 30,
+      "20261015": 30,
+      "20261016": 30,
+      "20261017": 30,
+      "20261018": 30,
+      "20261019": 30,
+      "20261020": 30,
+      "20261021": 30,
+      "20261022": 30,
+      "20261023": 30
+    },
+    "Montreal": {
+      "20261014": 30,
+      "20261015": 30,
+      "20261016": 30,
+      "20261017": 30,
+      "20261018": 30,
+      "20261019": 30,
+      "20261020": 30,
+      "20261021": 30,
+      "20261022": 30,
+      "20261023": 30
+    },
+    "New York": {
+      "20261014": 30,
+      "20261015": 30,
+      "20261016": 30,
+      "20261017": 30,
+      "20261018": 30,
+      "20261019": 30,
+      "20261020": 30,
+      "20261021": 30,
+      "20261022": 30,
+      "20261023": 30
+    },
+    "Prague": {
+      "20261014": 30,
+      "20261015": 30,
+      "20261016": 30,
+      "20261017": 30,
+      "20261018": 30,
+      "20261019": 30,
+      "20261020": 30,
+      "20261021": 30,
+      "20261022": 30,
+      "20261023": 30
+    }
+  },
+  "rf_sensitivities": {
+    "quality": {
+      "prior": {
+        "n": 3220.0,
+        "log_loss": 2.24181075584888,
+        "brier": 0.8864635455373646,
+        "accuracy": 0.2089323061877882,
+        "macro_f1": 0.0342983200922356,
+        "macro_recall": 0.0999999999999999,
+        "ece": 0.0547839956347537
+      },
+      "rf": {
+        "n": 3220.0,
+        "log_loss": 2.168977795544708,
+        "brier": 0.8742709489015996,
+        "accuracy": 0.2201477077221346,
+        "macro_f1": 0.0872772574434494,
+        "macro_recall": 0.1404663745072867,
+        "ece": 0.0410255990598087
+      },
+      "rf_temp": {
+        "n": 3220.0,
+        "log_loss": 2.1698414893294227,
+        "brier": 0.8742400682502917,
+        "accuracy": 0.2201477077221346,
+        "macro_f1": 0.0872772574434494,
+        "macro_recall": 0.1404663745072867,
+        "ece": 0.0392224483711732
+      },
+      "rf_gain_over_prior": 0.07283296030417219,
+      "rf_temp_gain_over_prior": 0.07196926651945734,
+      "prediction_arrays_valid": true
+    },
+    "no_concern": {
+      "prior": {
+        "n": 3528.0,
+        "log_loss": 2.2521609792308337,
+        "brier": 0.888507119088446,
+        "accuracy": 0.2058364413364413,
+        "macro_f1": 0.0338732580241537,
+        "macro_recall": 0.0999999999999999,
+        "ece": 0.0544989484877478
+      },
+      "rf": {
+        "n": 3528.0,
+        "log_loss": 2.176094055332686,
+        "brier": 0.8750840610412277,
+        "accuracy": 0.2199067599067599,
+        "macro_f1": 0.0889415665502935,
+        "macro_recall": 0.1447072271928676,
+        "ece": 0.0448156490165754
+      },
+      "rf_temp": {
+        "n": 3528.0,
+        "log_loss": 2.176833413015192,
+        "brier": 0.8751149816566807,
+        "accuracy": 0.2199067599067599,
+        "macro_f1": 0.0889415665502935,
+        "macro_recall": 0.1447072271928676,
+        "ece": 0.0403288509654686
+      },
+      "rf_gain_over_prior": 0.07606692389814773,
+      "rf_temp_gain_over_prior": 0.07532756621564163,
+      "prediction_arrays_valid": true
+    }
+  },
+  "runs": [
+    {
+      "seed": 20261015,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 24.27289268399909
+    },
+    {
+      "seed": 20261016,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 24.904959973999212
+    },
+    {
+      "seed": 20261017,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 27.90468954700009
+    },
+    {
+      "seed": 20261018,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 25.79015402600089
+    },
+    {
+      "seed": 20261019,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 27.47584105199894
+    },
+    {
+      "seed": 20261020,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 26.288865945998623
+    },
+    {
+      "seed": 20261021,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 27.1292896820014
+    },
+    {
+      "seed": 20261022,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 26.740635358999498
+    },
+    {
+      "seed": 20261023,
+      "regime": "loso",
+      "mode": "full",
+      "n": 3528,
+      "elapsed_seconds": 28.207600835001358
+    },
+    {
+      "seed": 20261014,
+      "regime": "quality",
+      "mode": "full",
+      "n": 3220,
+      "elapsed_seconds": 25.38880999399953
+    },
+    {
+      "seed": 20261014,
+      "regime": "loso",
+      "mode": "no_concern",
+      "n": 3528,
+      "elapsed_seconds": 25.023736270999507
+    }
+  ],
+  "validation_checks": [
+    {
+      "seed": 20261014,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261015,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261016,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261017,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261018,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261019,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261020,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261021,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261022,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    },
+    {
+      "seed": 20261023,
+      "prediction_arrays_valid": true,
+      "number_outer_folds": 6
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+regime,fold,n_train,n_test,n_training_sites
+loso,1,2978,550,5
+loso,2,2670,858,5
+loso,3,2978,550,5
+loso,4,3028,500,5
+loso,5,2978,550,5
+loso,6,3008,520,5
+random,1,2822,706,6
+random,2,2822,706,6
+random,3,2822,706,6
+random,4,2823,705,6
+random,5,2823,705,6

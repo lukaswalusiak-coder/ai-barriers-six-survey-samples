@@ -1,0 +1,11 @@
+source_code,model_index,label
+1,0,Lack of trust
+2,1,Lack of knowledge or skills
+3,2,Privacy and data concerns
+4,3,Job loss or unfair decisions
+5,4,Errors or poor response quality
+6,5,Unclear rules and accountability
+7,6,High cost
+8,7,Limited device or internet access
+9,8,No need to use AI
+10,9,Hard to say

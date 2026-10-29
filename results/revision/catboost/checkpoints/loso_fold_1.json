@@ -1,0 +1,333 @@
+{
+  "protocol_sha256": "2e41df6026ce4efe97105d343d01321850b796feef5b4b4400885643cfa69788",
+  "regime": "loso",
+  "fold": 1,
+  "sample": "Beijing",
+  "split_sha256": "f801cb613c146a2220ec3e494a0d176352489283c860d430c9d56a46c868031b",
+  "n_train": 2978,
+  "n_test": 550,
+  "selected_candidate_index": 5,
+  "selected_parameters": {
+    "iterations": 500,
+    "depth": 4,
+    "l2_leaf_reg": 10
+  },
+  "inner_log_loss": 2.161444277871441,
+  "temperature": 1.1864428150847028,
+  "temperature_inner_loss": 2.157226215991692,
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "parameters": {
+        "iterations": 100,
+        "depth": 4,
+        "l2_leaf_reg": 3
+      },
+      "inner_log_loss": 2.1695554956610685,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.1772517859211704
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.1668810305860586
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.2172761478231178
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.1381775232000804
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.1481909907749137
+        }
+      ]
+    },
+    {
+      "candidate_index": 1,
+      "parameters": {
+        "iterations": 100,
+        "depth": 4,
+        "l2_leaf_reg": 10
+      },
+      "inner_log_loss": 2.1716636444051494,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.1804150191823486
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.1676439302846653
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.2216420483599815
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.1394237307546926
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.1491934934440584
+        }
+      ]
+    },
+    {
+      "candidate_index": 2,
+      "parameters": {
+        "iterations": 100,
+        "depth": 6,
+        "l2_leaf_reg": 3
+      },
+      "inner_log_loss": 2.168450762547536,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.1756864499377975
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.1595347267596274
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.2170725206787516
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.1389141359163646
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.1510459794451395
+        }
+      ]
+    },
+    {
+      "candidate_index": 3,
+      "parameters": {
+        "iterations": 100,
+        "depth": 6,
+        "l2_leaf_reg": 10
+      },
+      "inner_log_loss": 2.1701382709769943,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.1747174760769945
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.167527194031911
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.2186827625585246
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.1404083771357465
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.149355545081796
+        }
+      ]
+    },
+    {
+      "candidate_index": 4,
+      "parameters": {
+        "iterations": 500,
+        "depth": 4,
+        "l2_leaf_reg": 3
+      },
+      "inner_log_loss": 2.166342238316201,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.1721164880887103
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.1590654693297604
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.225765904600937
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.137829769882128
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.1369335596794694
+        }
+      ]
+    },
+    {
+      "candidate_index": 5,
+      "parameters": {
+        "iterations": 500,
+        "depth": 4,
+        "l2_leaf_reg": 10
+      },
+      "inner_log_loss": 2.161444277871441,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.1701012632556025
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.154331841275717
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.2174194515346444
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.133030163076767
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.1323386702144744
+        }
+      ]
+    },
+    {
+      "candidate_index": 6,
+      "parameters": {
+        "iterations": 500,
+        "depth": 6,
+        "l2_leaf_reg": 3
+      },
+      "inner_log_loss": 2.1676002184312977,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.167875335028486
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.158833486523289
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.2326583905988975
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.1356767091365048
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.142957170869312
+        }
+      ]
+    },
+    {
+      "candidate_index": 7,
+      "parameters": {
+        "iterations": 500,
+        "depth": 6,
+        "l2_leaf_reg": 10
+      },
+      "inner_log_loss": 2.163173937150503,
+      "inner_site_losses": [
+        {
+          "site": "GZM",
+          "log_loss": 2.169788124509422
+        },
+        {
+          "site": "Istanbul",
+          "log_loss": 2.1558297833403115
+        },
+        {
+          "site": "Montreal",
+          "log_loss": 2.2257726868198486
+        },
+        {
+          "site": "New York",
+          "log_loss": 2.1246894131332654
+        },
+        {
+          "site": "Prague",
+          "log_loss": 2.139789677949667
+        }
+      ]
+    }
+  ],
+  "fitted_parameters": {
+    "nan_mode": "Min",
+    "eval_metric": "MultiClass",
+    "combinations_ctr": [
+      "Borders:CtrBorderCount=15:CtrBorderType=Uniform:TargetBorderCount=9:TargetBorderType=MinEntropy:Prior=0/1:Prior=0.5/1:Prior=1/1",
+      "Counter:CtrBorderCount=15:CtrBorderType=Uniform:Prior=0/1"
+    ],
+    "iterations": 500,
+    "sampling_frequency": "PerTree",
+    "fold_permutation_block": 0,
+    "leaf_estimation_method": "Newton",
+    "random_score_type": "NormalWithModelSizeDecrease",
+    "counter_calc_method": "SkipTest",
+    "grow_policy": "SymmetricTree",
+    "penalties_coefficient": 1,
+    "boosting_type": "Ordered",
+    "model_shrink_mode": "Constant",
+    "feature_border_type": "GreedyLogSum",
+    "ctr_leaf_count_limit": 18446744073709551615,
+    "bayesian_matrix_reg": 0.10000000149011612,
+    "one_hot_max_size": 2,
+    "eval_fraction": 0,
+    "force_unit_auto_pair_weights": false,
+    "l2_leaf_reg": 10,
+    "random_strength": 1,
+    "rsm": 1,
+    "boost_from_average": false,
+    "max_ctr_complexity": 4,
+    "model_size_reg": 0.5,
+    "approx_on_full_history": false,
+    "simple_ctr": [
+      "Borders:CtrBorderCount=15:CtrBorderType=Uniform:TargetBorderCount=9:TargetBorderType=MinEntropy:Prior=0/1:Prior=0.5/1:Prior=1/1",
+      "Counter:CtrBorderCount=15:CtrBorderType=Uniform:Prior=0/1"
+    ],
+    "pool_metainfo_options": {
+      "tags": {}
+    },
+    "use_best_model": false,
+    "random_seed": 20261014,
+    "depth": 4,
+    "ctr_target_border_count": 1,
+    "posterior_sampling": false,
+    "has_time": false,
+    "store_all_simple_ctr": false,
+    "fold_len_multiplier": 2,
+    "border_count": 254,
+    "bagging_temperature": 1,
+    "classes_count": 10,
+    "auto_class_weights": "None",
+    "sparse_features_conflict_fraction": 0,
+    "leaf_estimation_backtracking": "AnyImprovement",
+    "best_model_min_trees": 1,
+    "model_shrink_rate": 0,
+    "min_data_in_leaf": 1,
+    "loss_function": "MultiClass",
+    "learning_rate": 0.05000000074505806,
+    "score_function": "Cosine",
+    "task_type": "CPU",
+    "leaf_estimation_iterations": 1,
+    "bootstrap_type": "Bayesian",
+    "max_leaves": 16,
+    "permutation_count": 4
+  },
+  "elapsed_seconds": 1137.1775230799976,
+  "private_checkpoint_sha256": "871951f04fe64cf7b0aa2babb6b26a9b22cc4426682481f3f8d24c069776454d"
+}

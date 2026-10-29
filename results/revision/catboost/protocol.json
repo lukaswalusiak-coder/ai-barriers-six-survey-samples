@@ -1,0 +1,220 @@
+{
+  "recorded_before_first_fit_utc": "2026-10-28T19:36:45.006736+00:00",
+  "protocol_sha256": "2e41df6026ce4efe97105d343d01321850b796feef5b4b4400885643cfa69788",
+  "definition": {
+    "schema_version": 1,
+    "study": "applsci-4663183",
+    "analysis_status": "Exploratory analysis added during revision after original-model results were known; not preregistered.",
+    "data_sha256": "753083e0ae4685e91f2c23f2d418dfad6ca65abf5d5b72190b15b4a373d48467",
+    "n": 3528,
+    "implementation_sha256": "a484c3f4da2ce854dcda92d4fa0d1ebcbd8d55fdd16884d7385c8871d4c3ffc0",
+    "features": [
+      "age_years",
+      "sex",
+      "education",
+      "emp1",
+      "emp2",
+      "emp3",
+      "emp4",
+      "emp5",
+      "emp6",
+      "emp7",
+      "p15",
+      "p18",
+      "p19",
+      "p20",
+      "p21"
+    ],
+    "categorical_features": [
+      "sex",
+      "education"
+    ],
+    "target_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "fixed_parameters": {
+      "loss_function": "MultiClass",
+      "eval_metric": "MultiClass",
+      "learning_rate": 0.05,
+      "boosting_type": "Ordered",
+      "task_type": "CPU",
+      "random_seed": 20261014,
+      "thread_count": 1,
+      "use_best_model": false,
+      "allow_writing_files": false,
+      "verbose": false,
+      "classes_count": 10,
+      "grow_policy": "SymmetricTree",
+      "bootstrap_type": "Bayesian",
+      "bagging_temperature": 1.0,
+      "random_strength": 1.0,
+      "one_hot_max_size": 2
+    },
+    "candidate_grid": [
+      {
+        "iterations": 100,
+        "depth": 4,
+        "l2_leaf_reg": 3
+      },
+      {
+        "iterations": 100,
+        "depth": 4,
+        "l2_leaf_reg": 10
+      },
+      {
+        "iterations": 100,
+        "depth": 6,
+        "l2_leaf_reg": 3
+      },
+      {
+        "iterations": 100,
+        "depth": 6,
+        "l2_leaf_reg": 10
+      },
+      {
+        "iterations": 500,
+        "depth": 4,
+        "l2_leaf_reg": 3
+      },
+      {
+        "iterations": 500,
+        "depth": 4,
+        "l2_leaf_reg": 10
+      },
+      {
+        "iterations": 500,
+        "depth": 6,
+        "l2_leaf_reg": 3
+      },
+      {
+        "iterations": 500,
+        "depth": 6,
+        "l2_leaf_reg": 10
+      }
+    ],
+    "outer_validation": "Six complete-site holdouts and original five jointly site-by-target stratified random folds.",
+    "inner_selection": "Leave one training site out; minimize unweighted mean of site log losses; ties use the first grid entry.",
+    "training_weights": "No class balancing or explicit sample weights; equal-site weighting is applied in selection and evaluation.",
+    "preprocessing": "Only fixed features; sex and education integer codes converted to strings. All CatBoost quantization and categorical transformations fit within each training subset. No shared quantized Pool or eval_set.",
+    "calibration": {
+      "method": "temperature scaling",
+      "bounds": [
+        0.25,
+        4.0
+      ],
+      "optimizer": "bounded minimize_scalar over log(T)",
+      "clip": 1e-15,
+      "criterion": "equal-site-weighted selected inner out-of-fold log loss"
+    },
+    "model_seed": 20261014,
+    "split_seed": 20261014,
+    "versions": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit_learn": "1.8.0",
+      "catboost": "1.2.8"
+    },
+    "outer_splits": [
+      {
+        "regime": "loso",
+        "fold": 1,
+        "sample": "Beijing",
+        "n_train": 2978,
+        "n_test": 550,
+        "split_sha256": "f801cb613c146a2220ec3e494a0d176352489283c860d430c9d56a46c868031b"
+      },
+      {
+        "regime": "loso",
+        "fold": 2,
+        "sample": "GZM",
+        "n_train": 2670,
+        "n_test": 858,
+        "split_sha256": "249c3cd57708cc840460749b52636a12ab2a231194560ac15c0c2a3d364e07c9"
+      },
+      {
+        "regime": "loso",
+        "fold": 3,
+        "sample": "Istanbul",
+        "n_train": 2978,
+        "n_test": 550,
+        "split_sha256": "8a80e55d5a26df95724c1ccce8559899a0ff67170fbc40971c538ee6088434fc"
+      },
+      {
+        "regime": "loso",
+        "fold": 4,
+        "sample": "Montreal",
+        "n_train": 3028,
+        "n_test": 500,
+        "split_sha256": "a94eea0b8da7e075bc637aef5441b0ee349a41183262b2b488ea2be8ef44e18d"
+      },
+      {
+        "regime": "loso",
+        "fold": 5,
+        "sample": "New York",
+        "n_train": 2978,
+        "n_test": 550,
+        "split_sha256": "6bc7b36d409ffe862aad6dc03633c5f2518bfb8b59f4d0ee5bef530f146c1e9f"
+      },
+      {
+        "regime": "loso",
+        "fold": 6,
+        "sample": "Prague",
+        "n_train": 3008,
+        "n_test": 520,
+        "split_sha256": "afff890f7897ca910cfdfb4dc532dd7755031cfd2da2e019f97f3ec2f2ce1dcb"
+      },
+      {
+        "regime": "random",
+        "fold": 1,
+        "sample": null,
+        "n_train": 2822,
+        "n_test": 706,
+        "split_sha256": "59bc42ad5ddd79207b513b1780a13c4d8d3cb3e8e8cdc129049937b96baddac0"
+      },
+      {
+        "regime": "random",
+        "fold": 2,
+        "sample": null,
+        "n_train": 2822,
+        "n_test": 706,
+        "split_sha256": "17b45c744cd04e38255716886e7aa707331483951b08d8a1a75507a18817ebc0"
+      },
+      {
+        "regime": "random",
+        "fold": 3,
+        "sample": null,
+        "n_train": 2822,
+        "n_test": 706,
+        "split_sha256": "400080064e919e8181dcc55646e0c4e171e8ee5c2054fdfba0a3319920cbcfbf"
+      },
+      {
+        "regime": "random",
+        "fold": 4,
+        "sample": null,
+        "n_train": 2823,
+        "n_test": 705,
+        "split_sha256": "a42cd7602d37d9a17a30809a940bb8db0a4a7407ba924a3028c9c13871b0d9e1"
+      },
+      {
+        "regime": "random",
+        "fold": 5,
+        "sample": null,
+        "n_train": 2823,
+        "n_test": 705,
+        "split_sha256": "3b0a3c59ed9cfd071ec5494a80c7474a05d2bda111d00b02700372efe234a47c"
+      }
+    ],
+    "reporting": "All raw and calibrated results reported regardless of comparative performance. Original model outputs remain unchanged."
+  }
+}

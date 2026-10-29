@@ -1,0 +1,8 @@
+{
+  "status": "computed_from_original_fixed_splits_and_aggregate_model_metrics",
+  "equal_site_add_one": "Average of (site_class_count+1)/(site_n+10) across available training sites.",
+  "equal_site_unsmoothed": "Smoothing sensitivity only; equal average of empirical training-site proportions.",
+  "interpretation": "Arithmetic contrast, not a causal decomposition of geographic or predictor-outcome shift.",
+  "no_refitting": true,
+  "split_seed": 20261014
+}

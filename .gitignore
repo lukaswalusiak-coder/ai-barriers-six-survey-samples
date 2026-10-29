@@ -1,0 +1,6 @@
+private/
+extracted/
+__pycache__/
+*.pyc
+.venv/
+.env

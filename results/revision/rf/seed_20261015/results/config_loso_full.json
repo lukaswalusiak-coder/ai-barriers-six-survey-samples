@@ -1,0 +1,116 @@
+[
+  {
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0435662981685567,
+    "inner_loss": 2.162822933654554,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1725653576661186
+      },
+      {
+        "value": 30,
+        "loss": 2.162822933654554
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.1369050396772193,
+    "inner_loss": 2.179191086167434,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.189075362165831
+      },
+      {
+        "value": 30,
+        "loss": 2.179191086167434
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0363064301359417,
+    "inner_loss": 2.161404000623535,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.168696149880341
+      },
+      {
+        "value": 30,
+        "loss": 2.161404000623535
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.1340237578660433,
+    "inner_loss": 2.176647817007482,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.185928334506671
+      },
+      {
+        "value": 30,
+        "loss": 2.176647817007482
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "New York",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.1514581695764623,
+    "inner_loss": 2.1870777335941733,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1968182092176685
+      },
+      {
+        "value": 30,
+        "loss": 2.1870777335941733
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.1590035892817618,
+    "inner_loss": 2.1834492374346155,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1958678657410817
+      },
+      {
+        "value": 30,
+        "loss": 2.1834492374346155
+      }
+    ]
+  }
+]

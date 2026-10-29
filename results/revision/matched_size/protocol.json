@@ -1,0 +1,24 @@
+{
+  "n_outer_train": 2670,
+  "subsample_seeds": [
+    20261028,
+    20261029,
+    20261030,
+    20261031,
+    20261032
+  ],
+  "model_seed": 20261014,
+  "split_seed": 20261014,
+  "families": [
+    "lr",
+    "rf"
+  ],
+  "stratification": "site x target; proportional allocation via StratifiedShuffleSplit",
+  "evaluation": "Original outer test folds retained. All 3528 respondents assessed per repetition.",
+  "tuning": "Original nested leave-one-training-site-out tuning and temperature calibration, refitted per subsample.",
+  "prior_pooled": "(training category count + 1) / (training n + 10)",
+  "prior_equal_site": "Arithmetic mean across training sites of (site category count + 1) / (site n + 10)",
+  "summary": "Mean, sample SD, minimum and maximum of metrics over 5 subsampling repetitions, not averaged-prediction ensemble.",
+  "limits": "Matches outer training n only. Site composition, number of training sites, and inner training sizes still differ. Repetition range is not a confidence interval.",
+  "analysis_source_sha256": "631a13e8abf33d42b7004aa039ea3c200d323e1d08287320a7e5802930a539f6"
+}

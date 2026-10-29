@@ -1,0 +1,554 @@
+[
+  {
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.150663598746966,
+    "inner_loss": 2.213836476418221,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.213836476418221
+      },
+      {
+        "value": 0.1,
+        "loss": 2.216926037426362
+      },
+      {
+        "value": 1,
+        "loss": 2.2267250260179834
+      },
+      {
+        "value": 10,
+        "loss": 2.234839072326591
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.0975852480981645,
+    "inner_loss": 2.172643137252837,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.172643137252837
+      },
+      {
+        "value": 0.1,
+        "loss": 2.183130451137732
+      },
+      {
+        "value": 1,
+        "loss": 2.194974292545021
+      },
+      {
+        "value": 10,
+        "loss": 2.202550511555166
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0423272691936236,
+    "inner_loss": 2.162705600486249,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1706043133330475
+      },
+      {
+        "value": 30,
+        "loss": 2.162705600486249
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.3931759582406102,
+    "inner_loss": 2.1859814849094494,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.1859814849094494
+      },
+      {
+        "value": 15,
+        "loss": 2.21849064549854
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.2178383286710357,
+    "inner_loss": 2.2148962380542,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.2148962380542
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2240714843679754
+      },
+      {
+        "value": 1,
+        "loss": 2.238372829899448
+      },
+      {
+        "value": 10,
+        "loss": 2.2504157569698555
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1790379151300223,
+    "inner_loss": 2.184117244534005,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.184117244534005
+      },
+      {
+        "value": 0.1,
+        "loss": 2.199717711126262
+      },
+      {
+        "value": 1,
+        "loss": 2.2163823913776026
+      },
+      {
+        "value": 10,
+        "loss": 2.2287468606162086
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.1391399171210117,
+    "inner_loss": 2.178527817297776,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.187473555676135
+      },
+      {
+        "value": 30,
+        "loss": 2.178527817297776
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.5205516212101287,
+    "inner_loss": 2.210811448970619,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.210811448970619
+      },
+      {
+        "value": 15,
+        "loss": 2.2499474543208224
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1395927282571463,
+    "inner_loss": 2.2119949777602335,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.2119949777602335
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2138555619671743
+      },
+      {
+        "value": 1,
+        "loss": 2.224214717399081
+      },
+      {
+        "value": 10,
+        "loss": 2.233976620672282
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.0931276540662824,
+    "inner_loss": 2.171265457544138,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.171265457544138
+      },
+      {
+        "value": 0.1,
+        "loss": 2.1806190011291418
+      },
+      {
+        "value": 1,
+        "loss": 2.192843407995639
+      },
+      {
+        "value": 10,
+        "loss": 2.2027379977491366
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.0305064670297883,
+    "inner_loss": 2.159686115279753,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.167268970224011
+      },
+      {
+        "value": 30,
+        "loss": 2.159686115279753
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.4273637842878728,
+    "inner_loss": 2.194219670071325,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.194219670071325
+      },
+      {
+        "value": 15,
+        "loss": 2.2281983006190815
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.2574816977817085,
+    "inner_loss": 2.2254093817292087,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.2254093817292087
+      },
+      {
+        "value": 0.1,
+        "loss": 2.234628526947996
+      },
+      {
+        "value": 1,
+        "loss": 2.2479168833312597
+      },
+      {
+        "value": 10,
+        "loss": 2.259586274024344
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1926526161021853,
+    "inner_loss": 2.1870990008221787,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1870990008221787
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2055523590764263
+      },
+      {
+        "value": 1,
+        "loss": 2.2217757826921174
+      },
+      {
+        "value": 10,
+        "loss": 2.2340909468803942
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.1315010389710896,
+    "inner_loss": 2.1758831746078515,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.183670999227592
+      },
+      {
+        "value": 30,
+        "loss": 2.1758831746078515
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.4753147730171912,
+    "inner_loss": 2.2027090663741253,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.2027090663741253
+      },
+      {
+        "value": 15,
+        "loss": 2.239201801724974
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "New York",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.227534429412623,
+    "inner_loss": 2.2279404708608053,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.2279404708608053
+      },
+      {
+        "value": 0.1,
+        "loss": 2.228376518795725
+      },
+      {
+        "value": 1,
+        "loss": 2.241340963765052
+      },
+      {
+        "value": 10,
+        "loss": 2.2555248894613227
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "New York",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.1812091128553441,
+    "inner_loss": 2.193221566859614,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.193221566859614
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2041755568305623
+      },
+      {
+        "value": 1,
+        "loss": 2.2204135562693565
+      },
+      {
+        "value": 10,
+        "loss": 2.235794801374098
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "New York",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.151086408985737,
+    "inner_loss": 2.1869255501300087,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1980553844916155
+      },
+      {
+        "value": 30,
+        "loss": 2.1869255501300087
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "New York",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.5419562645885545,
+    "inner_loss": 2.218200147371935,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.218200147371935
+      },
+      {
+        "value": 15,
+        "loss": 2.258170914739165
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "demo_lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.2578440470708143,
+    "inner_loss": 2.224061982586136,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.224061982586136
+      },
+      {
+        "value": 0.1,
+        "loss": 2.231299961099867
+      },
+      {
+        "value": 1,
+        "loss": 2.2447679607116697
+      },
+      {
+        "value": 10,
+        "loss": 2.2564216657139466
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "lr",
+    "mode": "full",
+    "parameter": 0.01,
+    "temperature": 1.220630703698131,
+    "inner_loss": 2.1945985035901,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1945985035901
+      },
+      {
+        "value": 0.1,
+        "loss": 2.210825682131615
+      },
+      {
+        "value": 1,
+        "loss": 2.226874519300355
+      },
+      {
+        "value": 10,
+        "loss": 2.2385457139755807
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "rf",
+    "mode": "full",
+    "parameter": 30,
+    "temperature": 1.154669373002608,
+    "inner_loss": 2.18205456140439,
+    "candidates": [
+      {
+        "value": 10,
+        "loss": 2.1980682521906454
+      },
+      {
+        "value": 30,
+        "loss": 2.18205456140439
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "hgb",
+    "mode": "full",
+    "parameter": 7,
+    "temperature": 1.5144220427102753,
+    "inner_loss": 2.2138034678322835,
+    "candidates": [
+      {
+        "value": 7,
+        "loss": 2.2138034678322835
+      },
+      {
+        "value": 15,
+        "loss": 2.2510628460482014
+      }
+    ]
+  }
+]

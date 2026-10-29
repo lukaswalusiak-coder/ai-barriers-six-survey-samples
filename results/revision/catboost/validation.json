@@ -1,0 +1,20 @@
+{
+  "protocol_sha256": "2e41df6026ce4efe97105d343d01321850b796feef5b4b4400885643cfa69788",
+  "n": 3528,
+  "outer_folds": 11,
+  "all_probability_matrices_complete": true,
+  "original_baseline_checks": [
+    {
+      "regime": "loso",
+      "original_prior_aggregate_match": true,
+      "original_private_prior_available_and_matching": true
+    },
+    {
+      "regime": "random",
+      "original_prior_aggregate_match": true,
+      "original_private_prior_available_and_matching": true
+    }
+  ],
+  "metric_aggregation": "Pooled and equal-site summaries are distinct; all sites have equal weight only in the latter.",
+  "inference_limit": "These outputs are descriptive. No claim of independent confirmation, population superiority, or comprehensive tuning is made."
+}

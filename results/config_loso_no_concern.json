@@ -1,0 +1,164 @@
+[
+  {
+    "regime": "loso",
+    "fold": "Beijing",
+    "family": "lr",
+    "mode": "no_concern",
+    "parameter": 0.01,
+    "temperature": 1.1209482979412508,
+    "inner_loss": 2.1817468566613996,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1817468566613996
+      },
+      {
+        "value": 0.1,
+        "loss": 2.192604324498102
+      },
+      {
+        "value": 1,
+        "loss": 2.204380312717757
+      },
+      {
+        "value": 10,
+        "loss": 2.212113492588686
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "GZM",
+    "family": "lr",
+    "mode": "no_concern",
+    "parameter": 0.01,
+    "temperature": 1.18753351901158,
+    "inner_loss": 2.1885418702291988,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1885418702291988
+      },
+      {
+        "value": 0.1,
+        "loss": 2.203087091999474
+      },
+      {
+        "value": 1,
+        "loss": 2.2192613748068237
+      },
+      {
+        "value": 10,
+        "loss": 2.231551961718121
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Istanbul",
+    "family": "lr",
+    "mode": "no_concern",
+    "parameter": 0.01,
+    "temperature": 1.1012050350749625,
+    "inner_loss": 2.176626627017135,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.176626627017135
+      },
+      {
+        "value": 0.1,
+        "loss": 2.185501057533543
+      },
+      {
+        "value": 1,
+        "loss": 2.197547704358622
+      },
+      {
+        "value": 10,
+        "loss": 2.207375669177926
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Montreal",
+    "family": "lr",
+    "mode": "no_concern",
+    "parameter": 0.01,
+    "temperature": 1.2095448175545511,
+    "inner_loss": 2.1935627511262235,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.1935627511262235
+      },
+      {
+        "value": 0.1,
+        "loss": 2.211808221492645
+      },
+      {
+        "value": 1,
+        "loss": 2.227708031268574
+      },
+      {
+        "value": 10,
+        "loss": 2.240052754262062
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "New York",
+    "family": "lr",
+    "mode": "no_concern",
+    "parameter": 0.01,
+    "temperature": 1.1982963214443951,
+    "inner_loss": 2.199345049323766,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.199345049323766
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2094954894995418
+      },
+      {
+        "value": 1,
+        "loss": 2.225610790596619
+      },
+      {
+        "value": 10,
+        "loss": 2.240905363126428
+      }
+    ]
+  },
+  {
+    "regime": "loso",
+    "fold": "Prague",
+    "family": "lr",
+    "mode": "no_concern",
+    "parameter": 0.01,
+    "temperature": 1.236966144479138,
+    "inner_loss": 2.201331394287836,
+    "candidates": [
+      {
+        "value": 0.01,
+        "loss": 2.201331394287836
+      },
+      {
+        "value": 0.1,
+        "loss": 2.2171155067928936
+      },
+      {
+        "value": 1,
+        "loss": 2.2327438197444343
+      },
+      {
+        "value": 10,
+        "loss": 2.244366961526567
+      }
+    ]
+  }
+]
